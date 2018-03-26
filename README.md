@@ -6,16 +6,13 @@ Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i
 
 # 1. Introducció al Business Intelligence
 
-> Quote here.
+>Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own >business and to connect that understanding with their strategic decision-making.
 >
-> -- <cite>Benjamin Franklin</cite>
+>BI systems are built using specialized databases and software, but successful BI goes further than technology alone. When implemented >well, BI supports an analytic culture in an organization. BI gives decision-makers the tools and methods to turn flat information into >deeper understanding and informed action.
+>
+> -- <cite>McGill University</cite>
 
-
-Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own business and to connect that understanding with their strategic decision-making.
-
-BI systems are built using specialized databases and software, but successful BI goes further than technology alone. When implemented well, BI supports an analytic culture in an organization. BI gives decision-makers the tools and methods to turn flat information into deeper understanding and informed action.
-
-The concepts of Business Intelligence are increasingly being used in higher education, where they are sometimes called Academic Analytics. At universities that already have a tradition of centralized internal strategic analysis – such as McGill – BI is seen as a way to bring an analytic approach to the rest of the enterprise._
+![](https://cdn.business2community.com/wp-content/uploads/2014/02/BI-infographic1.jpg)
 
 # 2. Tableau
 
