@@ -37,6 +37,24 @@ EL link per instal·lar Power BI el podeu trobar aquí.
 * Compartir les dashboards amb altres
 ![](https://docs.microsoft.com/ca-es/power-bi/guided-learning/includes/media/0-1-intro-using-power-bi/c0a1_1.png)
 
+Els blocs principals de creació són:
+* Visualitzacions
+![Visualitzacions](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_1.png)
+* Conjunts de dades
+![Conjunts de dades](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_2.png)
+* Informes
+![Informes](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_3.png)
+* Dashboards (informes d'una pàgina)
+* Icones
+![Icones](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_4.png)
+
+## 3.3. Llegir dades
+
+És molt fàcil llegir dades:
+
+![Load data](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/1-2-connect-to-data-sources-in-power-bi-desktop/1-2_2.gif)
+
+Nosaltres descarregarem un .zip d'aquest [link](https://github.com/MicrosoftLearning/Analyzing-Visualizing-Data-PowerBI/blob/master/Lab1/PowerBI%20AccessDB.zip) i en llegirem les dades.
 
 
 # 4. Següents passos
