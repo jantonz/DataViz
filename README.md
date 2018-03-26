@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Benvinguts/des a la pàgina del curs _Business Intelligence i Data Viz amnb Teableau i Power BI_
 
-You can use the [editor on GitHub](https://github.com/jantonz/DataViz/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Des d'aquí podreu seguir el curs sencer. És un bon lloc per començar a aprendre BI!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i està penjada a [GitHub](https://github.com/jantonz/DataViz). Un cop completat el curs podreu proposar canvis a la web i podran ser implementats a la següent edició. En llenguatge GitHub, els vostres _commits_ podran ser _pushed_ a la _branch_ principal... ja hi arribarem!
 
-### Markdown
+# 1. Introducció al Business Intelligence
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> Quote here.
+>
+> -- <cite>Benjamin Franklin</cite>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own business and to connect that understanding with their strategic decision-making.
 
-- Bulleted
-- List
+BI systems are built using specialized databases and software, but successful BI goes further than technology alone. When implemented well, BI supports an analytic culture in an organization. BI gives decision-makers the tools and methods to turn flat information into deeper understanding and informed action.
 
-1. Numbered
-2. List
+The concepts of Business Intelligence are increasingly being used in higher education, where they are sometimes called Academic Analytics. At universities that already have a tradition of centralized internal strategic analysis – such as McGill – BI is seen as a way to bring an analytic approach to the rest of the enterprise._
 
-**Bold** and _Italic_ and `Code` text
+# 2. Tableau
 
-[Link](url) and ![Image](src)
-```
+## 2.1. Instal·lació de Tableau
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Per començar amb el BI i Data Viz ens descarregarem:
+- [Tableau](https://www.tableau.com/)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jantonz/DataViz/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# 3. Power BI
