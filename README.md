@@ -23,4 +23,34 @@ Per començar amb el BI i Data Viz ens descarregarem:
 
 
 
-# 3. Power BI
+# 3. PowerBI
+
+## 3.1. Instal·lació de PowerBI
+
+EL link per instal·lar Power BI el podeu trobar aquí.
+- [PowerBI](https://powerbi.microsoft.com/en-us/)
+
+## 3.2. Workflow
+
+* Llegir dades a Power BI Desktop, i crear un report.
+* Publicar a Power BI service, per crear visualitzacions i dashboards.
+* Compartir les dashboards amb altres
+![](https://docs.microsoft.com/ca-es/power-bi/guided-learning/includes/media/0-1-intro-using-power-bi/c0a1_1.png)
+
+
+
+# 4. Següents passos
+
+Check this out:
+- [Tutorial de PowerBI](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
+- [Tableau a Coursera](https://www.coursera.org/specializations/data-visualization)
+
+
+<br><br>
+<br><br>
+
+_Josep Anton Mir Tutusaus. 2018 ._
+
+<br><br>
+
+-----------------------------------
