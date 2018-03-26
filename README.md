@@ -1,4 +1,4 @@
-## Benvinguts/des a la pàgina del curs _Business Intelligence i Data Viz amnb Teableau i Power BI_
+## Benvinguts/des a la pàgina del curs _Business Intelligence i Data Viz amb Teableau i Power BI_
 
 Des d'aquí podreu seguir el curs sencer. És un bon lloc per començar a aprendre BI!
 
@@ -33,20 +33,33 @@ EL link per instal·lar Power BI el podeu trobar aquí.
 ## 3.2. Workflow
 
 * Llegir dades a Power BI Desktop, i crear un report.
+
 * Publicar a Power BI service, per crear visualitzacions i dashboards.
+
 * Compartir les dashboards amb altres
+
 ![](https://docs.microsoft.com/ca-es/power-bi/guided-learning/includes/media/0-1-intro-using-power-bi/c0a1_1.png)
 
 Els blocs principals de creació són:
+
 * Visualitzacions
+
 ![Visualitzacions](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_1.png)
+
 * Conjunts de dades
+
 ![Conjunts de dades](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_2.png)
+
 * Informes
+
 ![Informes](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_3.png)
+
 * Dashboards (informes d'una pàgina)
+
 * Icones
+
 ![Icones](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_4.png)
+
 
 ## 3.3. Llegir dades
 
