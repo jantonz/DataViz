@@ -94,12 +94,49 @@ Quan el Power Query Editor es connecta a dades, revisa cada camp (cada columna) 
 
 ### 3.3.1. Des d'un OData feed
 
+#### Pas 1. Connect to an OData feed
 [OData](http://www.odata.org/) vol dir Open Data Protocol, i és un protocol open source que permet la creació i consum de dades a través d'una API [RESTful](https://ca.wikipedia.org/wiki/REST) d'una manera força estàndard.
-short for Open Data Protocol, is an open protocol to allow the creation and consumption of queryable and interoperable RESTful APIs in a simple and standard way.
 
+En aquest cas ens connectarem a dades d'un sistema de vendes. Importarem les dades a Power BI Desktop des del Northwind OData feed a la següent URL: http://services.odata.org/V3/Northwind/Northwind.svc/
 
+Per cert, encara estam al Power Query Editor!
+1. Des de la Home seleccionem Get Data, i busquem OData Feed data source. 
+2. L'únic que necessitem és copiar la URL i enganxar-la al diàleg que apareix (Basic).
+3. Seleccionem la taula Orders i apretem a Ok.
 
+![OData](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
 
+#### Pas 2. Expand the Order_Details table
+
+La taula Orders conté una referència a una altra taula que es diu Details, que és la que conté els productes que van ser inclosos a cada comanda (Order). Això pot passar quan ens connectem a una font de dades amb diverses taules (per exemple, una base de dades relacional).
+
+En aquest pas expandim la taula Order_Details que està relacionada amb la taula Orders, per combinar les columnes  ProductID, UnitPrice, i Quantity de la taula Order_Details a la taula Orders. Així es podria representar les dades en aquestes taules:
+
+![DB Relacional](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+
+La operació "expandir" combina les columnes d'una taula relacionada capa una altra taula. Quan la query és executada, files de la taula relacionada (Order_Details) es combinen amb les de l'altra taula (Orders).
+
+Veurem 3 noves columnes i diverses files a la taula Orders, una per cada fila de la columna relacionada.
+
+1. A Power Query View, scroll cap a la columna Order_Details.
+2. A la columna Order_Details, selecciona expand ![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png).
+3. Al drop-down d'Expand:
+  - Selecciona Select All Columns per desclicar totes les columnes.
+  - Selecciona ProductID, UnitPrice, i Quantity.
+  - Click OK. 
+  
+[Expandir taula](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+
+#### Pas 3. Remove other columns to only display columns of interest
+
+Com a petit exercici, elimineu totes les columnes excepte OrderDate, ShipCity, ShipCountry, Order_Details.ProductID, Order_Details.UnitPrice i Order_Details.Quantity. Per fer-ho, però:
+1. Seleccioneu TOTES les columnes.
+2. Des-seleccioneu les columnes d'interès.
+3. Elimineu les columnes seleccionades.
+
+Així, per practicar!
+
+#### Pas 4. Calculate the line total for each Order_Details row
 
 # 4. Següents passos
 
