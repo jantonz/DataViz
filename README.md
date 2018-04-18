@@ -163,8 +163,8 @@ Ara podem canviar el nom de les columnes i canviar-les d'ordre per facilitar l'a
 # 4. Següents passos
 
 Check this out:
-- [Tutorial de PowerBI (I)](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
-- [Tutorial de PowerBI (II)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed)
+- [Tutorial de PowerBI](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
+- [Tutorial de PowerBI (Facebook)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-facebook-analytics)
 - [Tableau a Coursera](https://www.coursera.org/specializations/data-visualization)
 
 
