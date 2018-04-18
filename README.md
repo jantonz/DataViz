@@ -125,7 +125,7 @@ Veurem 3 noves columnes i diverses files a la taula Orders, una per cada fila de
   - Selecciona ProductID, UnitPrice, i Quantity.
   - Click OK. 
   
-[Expandir taula](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+![Expandir taula](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
 
 #### Pas 3. Remove other columns to only display columns of interest
 
@@ -137,6 +137,30 @@ Com a petit exercici, elimineu totes les columnes excepte OrderDate, ShipCity, S
 Així, per practicar!
 
 #### Pas 4. Calculate the line total for each Order_Details row
+
+Power BI et deixa fer càlculs de columnes _que estàs important_. Això farem: una columna nova amb el càlcul _suma_ per cada fila de la taula Order_Details. Primer, tanquem i guardem el Power Query Editor.
+
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+Apretem New Column i hi escrivim la fórmula LineTotal = [Order_Details.UnitPrice] * [Order_Details.Quantity]. LineTotal serà el nom de la columna i el seu valor, el resultat de la multiplicació de les columnes Order_Details.UnitPrice i Order_Details.Quantity.
+
+#### Pas 5. Set the datatype of the LineTotal field
+
+El botó dret ajuda!
+
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
+
+#### Pas 6. Rename and reorder columns in the query
+
+Ara podem canviar el nom de les columnes i canviar-les d'ordre per facilitar l'anàlisi i la creació de reports.
+
+1. A Power Query Editor, arrastrem la columna LineTotal a l'esquerra, després de ShipCountry.
+
+2. Eliminem el prefix _Order_Details._ de les columnes Order_Details.ProductID, Order_Details.UnitPrice i Order_Details.Quantity fent doble-click a cada títol de columna i eliminant el text del nom.
+
+
+
+
 
 # 4. Següents passos
 
