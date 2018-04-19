@@ -234,7 +234,7 @@ Quan acabem el procés, podem tornar a PowerBI i introduir l'usuari i contrassen
 
 ![](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/4-1-publish-reports/4-1_4.png)
 
-## 3.6. De Report a Dashboard
+## 3.7. De Report a Dashboard
 
 Des de PowerBI Service entrem al report que acabem de publicar i _anclem_ les visualitzacions que volem al **Dashboard** apretant el botó ![](https://docs.microsoft.com/en-us/power-bi/media/service-dashboard-create/power-bi-pin-icon.png).
 
@@ -262,7 +262,7 @@ Els gràfics es poden arrastrar des de la web mateix.
 | Can create visualizations |Limited to adding widgets to dashboard using "Add tile" |Can create many different types of visuals, add custom visuals, edit visuals and more with Editing permissions |
 | Customization |Can do things with the visualizations (tiles) like move and arrange, resize, add links, rename, delete, and display full screen. But the data and visualizations themselves are read-only. |In Reading view you can publish, embed, filter,export, download as .pbix, view related content, generate QR codes, analyze in Excel, and more.  In Editing view you can do everything mentioned so far and so much more. |
 
-
+Els dashboards es poden compartir, però només amb la versió pro (de pagament).
 
 # 4. Següents passos
 
