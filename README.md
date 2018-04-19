@@ -196,7 +196,7 @@ Si cliquem sobre la fletxa, ens apareix un diàleg de Edit Relationship.
 
 No cal que canviem res, així que apretem Cancel i ja estem llestos per visualitzar dades!
 
-## 3.5. Creació d'un Dashboard
+## 3.5. Creació d'un Report
 
 Una de les gràcies del programa és que permet crear moltes visualitzacions per guanyar _insight_ sobre les dades. Es poden construir reports amb diverses pàgines i cada pàgina pot tenir diferents gràfics. També es pot interactuar amb les visualizacions per analitzar i entendre millor les dades.
 
@@ -222,7 +222,7 @@ Per exemple, si cliquem al cercle de dins de Canadà veurem que la resta de grà
 
 ![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-## 3.6. Publicació del dashboard
+## 3.6. Publicació del Report
 
 Publicar el report és realment fàcil. Cal clicar el botó de Publish:
 
@@ -233,6 +233,28 @@ Això sí, caldrà que ens fem un compte a PowerBI online, que és gratuït.
 Quan acabem el procés, podem tornar a PowerBI i introduir l'usuari i contrassenya. Tot seguit el report es publica a PowerBI Service. Podem entrar al [compte d'usuari](https://app.powerbi.com/groups/me/contentlist). I ja està online!
 
 ![](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/4-1-publish-reports/4-1_4.png)
+
+## 3.6. De Report a Dashboard
+
+### Dashboards versus reports
+
+| **Capability** | **Dashboards** | **Reports** |
+| --- | --- | --- |
+| Pages |One page |One or more pages |
+| Data sources |One or more reports and one or more datasets per dashboard |A single dataset per report |
+| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
+| Pinning |Can pin existing visualizations (tiles) only from current dashboard to your other dashboards |Can pin visualizations (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. |
+| Subscribe |Can't subscribe to a dashboard |Can subscribe to report pages |
+| Filtering |Can't filter or slice |Many different ways to filter, highlight, and slice |
+| Set alerts |Can create alerts to email you when certain conditions are met |No |
+| Feature |Can set one dashboard as your "featured" dashboard |Cannot create a featured report |
+| Natural language queries |Available from dashboard |Not available from reports |
+| Can change visualization type |No. In fact, if a report owner changes the visualization type in the report, the pinned visualization on the dashboard does not update |Yes |
+| Can see underlying dataset tables and fields |No. Can export data but can't see tables and fields in the dashboard itself. |Yes. Can see dataset tables and fields and values. |
+| Can create visualizations |Limited to adding widgets to dashboard using "Add tile" |Can create many different types of visuals, add custom visuals, edit visuals and more with Editing permissions |
+| Customization |Can do things with the visualizations (tiles) like move and arrange, resize, add links, rename, delete, and display full screen. But the data and visualizations themselves are read-only. |In Reading view you can publish, embed, filter,export, download as .pbix, view related content, generate QR codes, analyze in Excel, and more.  In Editing view you can do everything mentioned so far and so much more. |
+
+
 
 # 4. Següents passos
 
