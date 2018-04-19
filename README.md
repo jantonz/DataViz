@@ -232,6 +232,8 @@ Això sí, caldrà que ens fem un compte a PowerBI online, que és gratuït.
 
 Quan acabem el procés, podem tornar a PowerBI i introduir l'usuari i contrassenya. Tot seguit el report es publica a PowerBI Service. Podem entrar al [compte d'usuari](https://app.powerbi.com/groups/me/contentlist). I ja està online!
 
+![](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/4-1-publish-reports/4-1_4.png)
+
 # 4. Següents passos
 
 Check this out:
