@@ -224,6 +224,13 @@ Per exemple, si cliquem al cercle de dins de Canadà veurem que la resta de grà
 
 ## 3.6. Publicació del dashboard
 
+Publicar el report és realment fàcil. Cal clicar el botó de Publish:
+
+![](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/4-1-publish-reports/4-1_1.png)
+
+Això sí, caldrà que ens fem un compte a PowerBI online, que és gratuït.
+
+Quan acabem el procés, podem tornar a PowerBI i introduir l'usuari i contrassenya. Tot seguit el report es publica a PowerBI Service. Podem entrar al [compte d'usuari](https://app.powerbi.com/groups/me/contentlist). I ja està online!
 
 # 4. Següents passos
 
