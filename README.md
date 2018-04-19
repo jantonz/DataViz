@@ -236,7 +236,15 @@ Quan acabem el procés, podem tornar a PowerBI i introduir l'usuari i contrassen
 
 ## 3.6. De Report a Dashboard
 
-### Dashboards versus reports
+Des de PowerBI Service entrem al report que acabem de publicar i _anclem_ les visualitzacions que volem al **Dashboard** apretant el botó ![](https://docs.microsoft.com/en-us/power-bi/media/service-dashboard-create/power-bi-pin-icon.png).
+
+Donem un nom al Dashboard i podem visualitzar-lo o bé afegir-hi més gràfics.
+
+![](https://docs.microsoft.com/en-us/power-bi/media/service-dashboard-create/power-bi-pin-tile.png)
+
+Els gràfics es poden arrastrar des de la web mateix.
+
+### Dashboards vs. reports (anglès)
 
 | **Capability** | **Dashboards** | **Reports** |
 | --- | --- | --- |
