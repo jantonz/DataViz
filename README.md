@@ -18,8 +18,14 @@ Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i
 
 ## 2.1. Instal·lació de Tableau
 
-Per començar amb el BI i Data Viz ens descarregarem:
-- [Tableau](https://www.tableau.com/)
+Per començar amb el BI i Data Viz ens descarregarem Tableau.
+
+Tableau és un softoware de pagament però he aconseguit llicències per aquest curs. Per activar-les, haureu de:
+- [Descarregar la última versió de Tableau aquí](https://www.tableau.com/tft/activation).
+- Clica al link anterior i apreta a Get Sarted. En el formulari, poseu el vostre mail a Business E-mail i escriu Barcelona Activa com a Organization.
+- Activa el software amb la llicència proporcionada a classe.
+
+Si voleu continuar utilitzant Tableau després que s'acabi el curs podeu demanar individualment una llicència d'estudiant (Tableau for Students) vàlida durant un any [aquí](https://community.tableau.com/community/students/).
 
 
 
