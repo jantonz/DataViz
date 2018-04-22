@@ -59,7 +59,7 @@ Alguns altres conceptes sobre Tableau:
 Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.  
 Dimension vs. Measure | Dimensions són variables/dades categòriques; Measures són dades quantitatives (numèriques). És força típic _agregar_ dades quantitatives segons una o diverses variables categòriques (ex: vendes (Measure) per regió (Dimension).
 
-## 2.3. Llegir dades
+## 2.3. Llegir dades (Step 1)
 
 _Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccionar una font de dades. En aquest cas, ens connectarem a un dataset de mostra que es diu Sample - Superstore.
 
@@ -68,6 +68,8 @@ _Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccio
 Aquest dataset d'exemple conté informació sobre productes, vendes, beneficis, etc.
 
 ## 2.4. Exploraroty Data Analysis (EDA)
+
+# Step 2: Drag and drop to take a first look
 
 El dataset conté 4 anys de dades i començarem amb donar un cop d'ull a les dades de vendes (sales) del 2014 al 2017. Creem un gràfic simple!
 
@@ -98,11 +100,9 @@ Una bona manera serà afegint dades cateegòriques:
 
 El gràfic es converteix automàticament en un gràfic de barres. En afegir una segona variable categòrica, les dades s'organitzen segons aquesta variable i podem veure les dades separades anualment enlloc de forma contínua en el temps.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag24.gif)
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag4.png)
 
 Proveu el botó: **Show Mark Labels**.
-
-**Note:** In the Get Started tutorial, text labels are not added to the view.
 
 ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag6.png)
 
@@ -114,7 +114,7 @@ Retornem a la visualització anterior abans de continuar.
 
 Podem encara filar més prim i mirar els productes per sub-categoria per veure quins ítems són els best-sellers: Arrastrem **Sub-Category** a **Columns**. Com que és una altre variable categòrica, i discreta, apareixen barres per cada sub-categoria, agrupades per categoria i any.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag9.png)
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag24.gif)
 
 La idea és bona, però potser són masses dades alhora per poder entendre-les.
 
@@ -125,6 +125,54 @@ Es pot fer el mateix, però enlloc d'arrastrar **Sub-Category** al prestatge de 
 Podem canviar de lloc les barres canviant de lloc els noms a la llegenda.
 
 Tornem a la visualització anterior abans de continuar.
+
+* * *
+
+## Afegim filtres
+
+Els filtres serveixen per incloure o excloure valors del gràfic. En aquest exemple afegim dos filtres per fer més fàcil visualitzar les vendes per subcategoria en un any en concret.
+
+    1. Al panell Data, a Dimensions, right-click **Order Date** i selecciona **Show Filter**.
+
+    2. Fem el mateix amb el camp **Sub-Category**.
+
+Els filtres s'afegeixen a la part dreta del full però es poden moure allà on convingui.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag25.gif)
+
+## Afegim color
+
+Podem veure que alguns productes es venen poc, de forma consistent durant els 4 anys. Però potser no és així pel que fa al benefici. Arrastrem **Profit** a **Color** a la carta Marks a veure què passa.
+
+Algun nou insight?
+
+Afegir colors pot millorar el gràfic estèticament, però també pot desvetllar tendències que no s'havien trobat abans. Els colors per defecte es poden canviar clicant a **Color** i després a **Edit Colors**.
+
+Ens cal investigar els productes que no aporten beneficis, a veure si han tingut pèrdues any rere any. Petita pista: utilitzarem filtres!
+
+* * *
+
+Jugant, jugant, hem decidit trencar el gràfic per regió:
+
+    1. Selecciona **All** al filtre **Sub-Category** per mostrar totes les sub-categories altre cop.  
+
+    2. De Dimensions, arrastrem **Region** a **Rows** i ho posem a l'esquerra de Sum(Sales). 
+
+Tableau crea un gràfic amb diversos eixos segons la regió.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/FocusRegions1.png)
+
+Torneu a utilitzar filtres per observar els ítems que tenien pèrdues.
+
+Les màquines del sud encara tenen un benefici més negatiu que les altres regions: un nou insight! 
+
+Aquesta visualització ens agrada prou. Volem guardar-la però sense perdre res del que hem fet anteriorment. Si fem clic dret al nom del full "Sheet1" podem duplicar-lo. I de pas, canviar-li el nom.
+
+    3. L'anomenem "Vendes al Sud"
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag27.gif)
+
+Guardem el llibre: **File** &gt; **Save As**. Per defecte, es guardarà a **Documents** &gt; **My Documents** &gt; **My Tableau Repository**.
 
 * * *
 
