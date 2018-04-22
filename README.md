@@ -601,10 +601,12 @@ Els dashboards es poden compartir, però només amb la versió pro (de pagament)
 # 4. Següents passos
 
 Check this out:
+- [Tutorial de Tableau: dades de GapMinder](https://www.edupristine.com/blog/animation-in-tableau)
+- [Tutorial de Tableau: accidents d'aviació](https://www.edupristine.com/blog/visualizing-air-crashes-history-tableau)
+- [Tableau a Coursera](https://www.coursera.org/specializations/data-visualization)
 - [Tutorial de PowerBI](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
 - [Tutorial de PowerBI (Facebook)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-facebook-analytics)
 - [Tutorial de PowerBI (II)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed)
-- [Tableau a Coursera](https://www.coursera.org/specializations/data-visualization)
 
 
 <br><br>
