@@ -67,7 +67,7 @@ _Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccio
 
 Aquest dataset d'exemple conté informació sobre productes, vendes, beneficis, etc.
 
-## 3.4. Exploraroty Data Analysis (EDA)
+## 2.4. Exploraroty Data Analysis (EDA)
 
 El dataset conté 4 anys de dades i començarem amb donar un cop d'ull a les dades de vendes (sales) del 2014 al 2017. Creem un gràfic simple!
 
@@ -89,150 +89,45 @@ Per canviar el tipus de gràfic, seleccionem el menú drop-down **Marks**. Prove
 
 Observem que les vendes augmenten anualment, però la informació continua essent força pobra. Explorem una mica més, a veure quins productes estan funcionant millor.
 
-### Check your work! Watch "Create a view" in action.
-
-_Click the image to replay it._  
-![](Img/Drag23.gif)
-
-**Top ^**
-
 * * *
 
-## Refine your view
+### Refinem el gràfic
 
-To gain more insight into which products drive overall sales, try adding more
-data. Start by adding the product categories to look at sales totals in a
-different way.
+Una bona manera serà afegint dades cateegòriques:
+    1. Des de Dimensions, arrastra **Category** al prestatge **Columns** a la dreta de YEAR(Order Date). 
 
-  1. From Dimensions, drag **Category** to the **Columns** shelf and place it to the right of YEAR(Order Date). 
+El gràfic es converteix automàticament en un gràfic de barres. En afegir una segona variable categòrica, les dades s'organitzen segons aquesta variable i podem veure les dades separades anualment enlloc de forma contínua en el temps.
 
-Your view updates to a bar chart. By adding a second discrete dimension to the
-view you can categorize your data into discrete chunks instead of looking at
-your data continuously over time. This creates a bar chart and shows you
-overall sales for each product category by year.
+http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag24.gif)
 
-![](Img/Drag4.png)
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more**:
-Show me the numbers.](javascript:void\(0\);)
-
-You can view or add data point information to your view. In this example, this
-information shows exact sales totals by category.
-
-To view information about each data point (that is, mark) in your view, hover
-over one of the bars to reveal a tooltip. The tooltip displays total sales for
-that category. Here is the tooltip for the Office Suplies category for 2017:
-
-![](Img/Drag5.png)
-
-To add data point information as labels to your view, click **Show Mark
-Labels** on the toolbar. Below, we show the total sales for each category and
-year.
+Proveu el botó: **Show Mark Labels**.
 
 **Note:** In the Get Started tutorial, text labels are not added to the view.
 
-![](Img/Drag6.png)
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag6.png)
 
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Change your perspective.](javascript:void\(0\);)
+I també el botó **Swap**:
 
-To display the bar chart horizontally instead of vertically, click **Swap** on
-the toolbar.
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag7.png)
 
-**Note:** Undo this action before continuing the Get Started tutorial. 
+Retornem a la visualització anterior abans de continuar.
 
-![](Img/Drag7.png)
+Podem encara filar més prim i mirar els productes per sub-categoria per veure quins ítems són els best-sellers: Arrastrem **Sub-Category** a **Columns**. Com que és una altre variable categòrica, i discreta, apareixen barres per cada sub-categoria, agrupades per categoria i any.
 
-Your view is doing a great job showing sales by categoryâfurniture, office
-supplies, and technology. An interesting insight is revealed!
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag9.png)
 
-From this view, you can see that sales for furniture is growing faster than
-sales for office supplies, even though Office Supplies had a really good year
-in 2017. Perhaps you can recommend that your company focus sales efforts on
-furniture instead of office supplies? Your company sells a lot of different
-products in those categories, so you'll need more information before you can
-make a recommendation.
+La idea és bona, però potser són masses dades alhora per poder entendre-les.
 
-To help answer that question, you decide to look at products by sub-category
-to see which items are the big sellers. For example, for the Furniture
-category, you want to see details about bookcases, chairs, furnishings, and
-tables. Looking at this data might help you gain insights into sales and later
-on, overall profitability, so add sub-categories to your bar chart.
+Es pot fer el mateix, però enlloc d'arrastrar **Sub-Category** al prestatge de columnes, es pot arrastrar **Sub-Category** a **Color** a la carta Marks. Ara tenim un gràfic de barres apilades amb cada color representant una subcategoria.
 
-  1. Double-click or drag the **Sub-Category** dimension to the **Columns** shelf. 
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag8.png)
 
-**Note:** You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click Undo to remove the field, or drag it off the area where Tableau placed it to start over.
+Podem canviar de lloc les barres canviant de lloc els noms a la llegenda.
 
-Sub-Category is another discrete field. It creates another header at the
-bottom of the view, and shows a bar for each sub-category (68 marks) broken
-down by category and year.
-
-![](Img/Drag9.png)
-
-Now you are getting somewhere, but this is a lot of data to visually sort
-through. In the next section you will learn how you can add color, filters,
-and more to focus on specific results.
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Use a different view to compare product sales.](javascript:void\(0\);)
-
-If you want to see how your products contribute to overall sales by category,
-Tableau gives you another option.
-
-If you drag the **Sub-Category** dimension to **Color** on the Marks card, you
-create a stacked bar chart with additional marks for each sub-category
-identified by a unique color.
-
-**Note:** Undo this action before continuing the Get Started tutorial.
-
-![](Img/Drag8.png)
-
-This quickly shows you the amount of sales that each product contributes to
-the overall total for each category and year, and immediately shows the large
-and small contributors at a glance.
-
-Sub-categories are displayed as stacked bars in the order that they are listed
-in the legend, not according to where they fall on the Sales axis.
-
-For example, the above view shows you that bookcases contributed 38,544 USD in
-sales to the overall total of 170,518 USD for Furniture in 2015. The mark is
-displayed at the top of the bar because Bookcases is listed above Chairs,
-Furnishings, and Tables in the legend. The sub-categories are displayed in the
-legend so that you can move them around and examine your data in a way that
-makes sense to you.
-
-Depending on the kind of analysis you want to do, the stacked bar chart might
-or might not be the chart for you.
-
-### Check your work! Watch "Refine your view" in action.
-
-_Click the image to replay it_  
-![](Img/Drag24.gif)
-
-**Top ^**
+Tornem a la visualització anterior abans de continuar.
 
 * * *
 
-## Step summary
-
-This step was all about getting to know your data and starting to ask
-questions about your data to gain insights. You learned how to:
-
-  * Create a chart in a view that works for you.
-
-  * Add fields to get the right level of detail in your view.
-
-Now you are ready to begin focusing on your results to identify more specific
-areas of concern. In the next section, you will learn how to use filters and
-colors to help you explore your data visually.
-
-Continue to [Step 3: Focus your results](get-started-tutorial-focus.html).
-
-**Top ^**
-
-* * *
-
-![](Resources/Code/onLoad.png)
 
 
 
