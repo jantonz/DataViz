@@ -362,8 +362,8 @@ workspace controls and elements that you'll use.
 
 ![](Img/Drag28.png)
 
-**Element** | **Description**  
----|---  
+**Element** | **Description**
+--- | ---  
 Undo | With Tableau, feel free to experiment with your data. You can always get back to where you started with the Undo button. Use this button to reverse the last action you performed in your workbook. You can undo an unlimited number of times, back to the last time you opened the workbook, even after you saved your work.  
 Show/Hide Cards | Did you accidentally hide a card that you now need? No problem! Just about everything on the Tableau workspace can be turned on or off to provide the maximum amount of room for you to create your visualizations. To show or hide cards like Pages, Filters or Legends, click the drop-down arrow on the Show/Hide Cards ![](Img/Drag30.png) button on the toolbar and clear or enable the check mark for the card. You can even collapse the Data and Analytics pane to the lower left corner of the workspace by clicking the Minimize ![](Img/Drag29.png) button at the top-right corner of the pane. Click the button again to restore the pane like it was.  
 Data Pane | Displays the name of the data set that is included in the view and the fields in the data set classified as either dimensions or measures.
