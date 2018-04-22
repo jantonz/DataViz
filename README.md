@@ -334,323 +334,1011 @@ _Josep Anton Mir Tutusaus. 2018 ._
 <br><br>
 
 -----------------------------------
+PANDOCS PLAIN
+
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_tutorial_topnav" data-mc-search-type="Stem" data-mc-help-system-file-name="help.xml" data-mc-path-to-help-system="" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Steps">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Step 2: Drag and drop to take a first look</title>
+        <!-- Do not translate "section" and "subsection" -->
+        <meta name="section" content="Support" />
+        <meta name="subsection" content="Product Help" />
+        <!-- End of section not to translate -->
+        <meta name="breadcrumb_l1_text" content="Support" />
+        <meta name="breadcrumb_l1_url" content="http://www.tableau.com/en-us/support" />
+        <meta name="breadcrumb_l2_text" content="Product Help" />
+        <meta name="breadcrumb_l2_url" content="http://www.tableau.com/en-us/support/help" />
+        <!-- Google Tag Manager -->
+        <script type="text/javascript">/* <![CDATA[ */(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?String.fromCharCode(38)+'l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-BVCN');/* ]]> */</script>
+        <!-- End Google Tag Manager -->
+        <link href="Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="Resources/Stylesheets/guide-tutorial.css" rel="stylesheet" />
+        <link href="Resources/TableStyles/Shaded-NoBorder.css" rel="stylesheet" />
+        <script src="Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="Resources/Scripts/require.min.js">
+        </script>
+        <script src="Resources/Scripts/require.config.js">
+        </script>
+        <script src="Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="Resources/Scripts/MadCapAll.js">
+        </script>
+        <script src="Resources/Code/replay_gifs.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="get-started-tutorial-home.html" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="21" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="Search">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <script src="Resources/Code/feedback.js">
+                            </script>
+                            <div id="form-container">
+                                <form style="width:90%; float:left;" id="first-form"><span class="form-helpful-text form-visible">Was this page helpful?</span>
+                                    <div class="form-helpful-radio form-visible">
+                                        <input type="radio" name="form-helpful-radio" id="helpful-yes" value="1" onclick="submitRating();">Yes</input>
+                                        <input type="radio" name="form-helpful-radio" id="helpful-no" value="2" onclick="submitRating();">No</input>
+                                    </div>
+                                </form><span id="frame-caption" class="feedback-hidden">Have a comment? Please leave it here.</span><span id="post-submit-msg" class="feedback-hidden"><b>Thanks for your feedback!</b></span>
+                            </div>
+                            <h1>Step 2: Drag and drop to take a first look</h1>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /> This multi-step tutorial introduces Tableau Desktop. You are on <b>Step 2</b> of 8.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1"><a href="get-started-tutorial-connect.html" class="MCXref xref">Step 1: Connect to your data</a><![CDATA[            ]]></li>
+                                        <li value="2"><b>Step 2: Drag and drop to take a first look</b> (you are here)</li>
+                                        <li value="3"><a href="get-started-tutorial-focus.html" class="MCXref xref">Step 3: Focus your results</a><![CDATA[
+                    ]]></li>
+                                        <li value="4"><a href="get-started-tutorial-explore.html" class="MCXref xref">Step 4: Explore your data geographically</a>
+                                        </li>
+                                        <li value="5"><a href="get-started-tutorial-drilldown.html" class="MCXref xref">Step 5: Drill down into the details</a>
+                                        </li>
+                                        <li value="6"><a href="get-started-tutorial-build.html" class="MCXref xref">Step 6: Build a dashboard to show your insights</a>
+                                        </li>
+                                        <li value="7"><a href="get-started-tutorial-story.html" class="MCXref xref">Step 7: Build a story to present</a>
+                                        </li>
+                                        <li value="8"><a href="get-started-tutorial-share.html" class="MCXref xref">Step 8: Share your findings</a>
+                                        </li>
+                                    </ul>
+                                    <p>Want an overview?&#160;Head back to the <a href="get-started-tutorial-home.html">Introduction</a>.</p>
+                                </div>
+                            </div>
+                            <h2>Create a view</h2>
+                            <p>You set out to identify key areas for improvement, but where to start? With four years' worth of data, you decide to drill into the overall sales data between 2014 and 2017 to see what you find. Start by creating a simple chart.</p>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Terms in this section.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0">
+                                        <col class="Column-Column1" style="width: 247px;" />
+                                        <col class="Column-Column1" />
+                                        <tbody>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1"><b>Term</b>
+                                                </td>
+                                                <td class="BodyD-Column1-Body1"><b>Description</b>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyE-Column1-Body2">Aggregation</td>
+                                                <td class="BodyD-Column1-Body2">
+                                                    <p>Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1">Dimension vs Measure</td>
+                                                <td class="BodyD-Column1-Body1">
+                                                    <p>Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that
+contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view.</p>
+                                                    <p>Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyB-Column1-Body2">Continuous vs. Discrete</td>
+                                                <td class="BodyA-Column1-Body2">
+                                                    <p>Continuous fields  can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau.</p>
+                                                    <p>Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p><b>More on Dimensions and Measures</b> in the Learning Library (in the top menu).</p>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Tableau workspace controls and elements.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p>In this section, you'll drag fields to the Columns and Rows shelves, and you'll also work with the Marks card. The image below identifies some of the  workspace controls and elements  that you'll use.</p>
+                                    <p>
+                                        <img src="Img/Drag28.png" alt="" />
+                                    </p>
+                                    <table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0">
+                                        <col class="Column-Column1" style="width: 247px;" />
+                                        <col class="Column-Column1" />
+                                        <tbody>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1"><b>Element</b>
+                                                </td>
+                                                <td class="BodyD-Column1-Body1"><b>Description</b>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyE-Column1-Body2">Undo</td>
+                                                <td class="BodyD-Column1-Body2">
+                                                    <p>With Tableau, feel free to experiment with your data. You can always get back to where you started with the <span class="uicontrol">Undo</span> button. Use this button to reverse the last action you performed in your workbook. </p>
+                                                    <p>You can undo an unlimited number of times, back to the last time you opened the workbook, even after you  saved your work.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1">Show/Hide Cards</td>
+                                                <td class="BodyD-Column1-Body1">
+                                                    <p>Did you accidentally hide a card that you now need? No problem! Just about everything on the Tableau workspace can be turned on or off to provide the maximum amount of room for you to create your visualizations.</p>
+                                                    <p>To show or hide  cards like <span class="uicontrol">Pages</span>, <span class="uicontrol">Filters</span> or <span class="uicontrol">Legends</span>, click the drop-down arrow on the <span class="uicontrol">Show/Hide Cards</span> <img src="Img/Drag30.png" alt="" /> button on the toolbar and clear or enable the check mark for the card.</p>
+                                                    <p>You can even collapse the Data and Analytics pane to the lower left corner of the workspace by clicking the <span class="uicontrol">Minimize</span> <img src="Img/Drag29.png" alt="" /> button at the top-right corner of the pane. Click the button again to restore the pane like it was.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyE-Column1-Body2">Data Pane</td>
+                                                <td class="BodyD-Column1-Body2">
+                                                    <p>Displays the name of the data set that is included in the view and the fields in the data set classified as either dimensions or measures.</p>
+                                                    <p><b>More on  the Data Pane</b> in the Learning Library (in the top menu).</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyB-Column1-Body1">Cards and Shelves</td>
+                                                <td class="BodyA-Column1-Body1">
+                                                    <p>Cards are containers for the different controls that are available in&#160;Tableau. Shelves are a type of card control. When you drag fields from the Data pane to the Columns or Rows shelves, the data is added as a column or a row on the axes in your view.</p>
+                                                    <p>When you drag fields from the Data pane to the Marks card, you can control visual properties like type, color, size, shape, and more. Only the marks in your view are impacted by this action; axes do not change.</p>
+                                                    <p><b>More on  Cards and Shelves</b> in the Learning Library (in the top menu).</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <ol>
+                                <li value="1">
+                                    <p>From Dimensions in the Data pane, drag <b>Order Date</b> to the <b>Columns</b> shelf.</p>
+                                    <p><b>Note:</b> When you drag <span class="uicontrol">Order Date</span> to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an <span class="uicontrol">Abc</span> indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag <span class="uicontrol">Sales</span> to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.</p>
+                                </li>
+                                <li value="2">
+                                    <p>From Measures, drag <b>Sales</b> to the <b>Rows</b> shelf.</p>
+                                    <p>Tableau generates the following chart with sales rolled up as a sum (aggregated). You can see total aggregated sales for each year by order date.</p>
+                                </li>
+                                <p>
+                                    <img src="Img/Drag1.png" alt="" />
+                                </p>
+                                <p><i>Any time you create a view that includes time (in this case Order Date), Tableau generates a line chart.</i>
+                                </p>
+                            </ol>
+                            <p>This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Since you just got started, you decide to explore further and see what else you can find out.</p>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Explore your options.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p>To quickly change the chart type, select the drop-down menu on the <b>Marks</b> card. </p>
+                                    <p>For example, for an area chart, you can select <b>Area</b>. </p>
+                                    <p>
+                                        <img src="Img/Drag2.png" alt="" />
+                                    </p>
+                                    <p>Tableau supports many different chart types, referred to as Mark types. <b>More on Mark types</b> in the Learning Library (in the top menu).</p>
+                                    <p><b>Note:</b> Before you continue the tutorial, make sure your chart type is set back to <b>Automatic</b>.</p>
+                                </div>
+                            </div>
+                            <h3>Check your work!&#160;Watch "Create a view" in action.
+        </h3>
+                            <p><i>Click the image to replay it.</i>
+                                <br />
+                                <img src="Img/Drag23.gif" class="replay-gif" alt="" />
+                            </p>
+                            <p style="text-align: right;"><strong><a href="#top">Top ^</a></strong>
+                            </p>
+                            <hr width="100%" size="0" align="center" />
+                            <h2>Refine your view</h2>
+                            <p>To gain more insight into which products drive overall sales, try adding more data. Start by adding the product categories to look at sales totals in a different way.</p>
+                            <ol>
+                                <li value="1">From Dimensions, drag <b>Category</b> to the <b>Columns</b> shelf and place it to the right of YEAR(Order Date). 
+				<p>Your view updates to a bar chart. By adding a second discrete dimension to the view you can categorize your data into discrete chunks instead of looking at your data continuously over time. This creates a bar chart and shows you overall sales for each product category by year.</p><p><img src="Img/Drag4.png" alt="" /></p></li>
+                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more</b>: Show me the numbers.</a></span>
+                                    <div class="MCDropDownBody dropDownBody">
+                                        <p>You can view or add data point information to your view. In this example, this information shows exact sales totals by category.</p>
+                                        <p>To view information about each data point (that is, mark) in your view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Suplies category for 2017:</p>
+                                        <p>
+                                            <img src="Img/Drag5.png" alt="" />
+                                        </p>
+                                        <p>To add data point information as labels to your view, click  <b>Show Mark Labels</b>  on the toolbar. Below, we show the total sales for each category and year. </p>
+                                        <p><b>Note:</b>&#160;In the&#160;Get Started tutorial, text labels are not added to the view.</p>
+                                        <p>
+                                            <img src="Img/Drag6.png" alt="" />
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Change your perspective.</a></span>
+                                    <div class="MCDropDownBody dropDownBody">
+                                        <p>To display the bar chart horizontally instead of vertically, click  <b>Swap</b>  on the toolbar.</p>
+                                        <p><b>Note:</b>&#160;Undo this action before continuing the Get Started tutorial. </p>
+                                        <p>
+                                            <img src="Img/Drag7.png" alt="" />
+                                        </p>
+                                    </div>
+                                </div>
+                                <p>Your view is doing a great job showing sales by category—furniture, office supplies, and technology. An interesting insight is revealed!</p>
+                                <p>From this view, you can see that sales for furniture is growing faster than sales for office supplies, even though Office Supplies had a really good year in 2017. Perhaps you can recommend that your company focus sales efforts on furniture instead of office supplies? Your company sells a lot of different products in those categories, so you'll need more information before you can make a recommendation.</p>
+                                <p>To help answer that question, you decide to look at products by sub-category to see which items are the big sellers. For example, for the Furniture category, you want to see details about bookcases, chairs, furnishings, and tables. Looking at this data might help you gain insights into sales and later on, overall profitability, so add sub-categories to your bar chart.</p>
+                            </ol>
+                            <ol>
+                                <li value="2">Double-click or drag the <b>Sub-Category</b> dimension to the <b>Columns</b> shelf. </li>
+                                <p><b>Note:</b> You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click <span class="uicontrol">Undo</span> to remove the field, or drag it off the area where Tableau placed it to start over.</p>
+                                <p>Sub-Category is another discrete field. It creates another header at the bottom of the view, and shows a bar for each sub-category (68 marks) broken down by category and year.</p>
+                                <p>
+                                    <img src="Img/Drag9.png" alt="" />
+                                </p>
+                            </ol>
+                            <p>Now you are getting somewhere, but this is a lot of data to visually sort through. In the next section you will learn how you can add color, filters, and more to focus on specific results.</p>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b>&#160;Use a different view to compare product sales.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p>If you want to see how your products contribute to overall sales by category, Tableau gives you another option. </p>
+                                    <p>If you drag the <b>Sub-Category</b> dimension to <b>Color</b> on the Marks card, you create a stacked bar chart with additional marks for each sub-category identified by a unique color. </p>
+                                    <p><b>Note:</b>&#160;Undo this action before continuing the Get Started tutorial.</p>
+                                    <p>
+                                        <img src="Img/Drag8.png" alt="" />
+                                    </p>
+                                    <p>This quickly shows you the amount of sales that each product contributes to the overall total for each category and year, and immediately shows the large and small contributors at a glance.</p>
+                                    <p>Sub-categories are displayed as stacked bars in the order that they are listed in the legend, not according to where they fall on the Sales axis. </p>
+                                    <p>For example, the above view shows you that bookcases contributed 38,544 USD in sales to the overall total of 170,518 USD for Furniture in 2015. The mark is displayed at the top of the bar because Bookcases is listed above Chairs, Furnishings, and Tables in the legend. The sub-categories are displayed in the legend so that you can move them around and examine your data in a way that makes sense to you. </p>
+                                    <p>Depending on the kind of analysis you want to do, the stacked bar chart might or might not be the chart for you.</p>
+                                </div>
+                            </div>
+                            <h3>Check your work!&#160;Watch "Refine your view" in action.
+        </h3>
+                            <p><i>Click the image to replay it</i>
+                                <br />
+                                <img src="Img/Drag24.gif" class="replay-gif" alt="" />
+                            </p>
+                            <p style="text-align: right;"><strong><a href="#top">Top ^</a></strong>
+                            </p>
+                            <hr width="100%" size="0" align="center" />
+                            <h2>Step summary</h2>
+                            <p>This step was all about getting to know your data and starting to ask questions about your data to gain insights.  You learned how to:</p>
+                            <ul>
+                                <li value="1">
+                                    <p>Create a chart in a view that works for you.</p>
+                                </li>
+                                <li value="2">
+                                    <p>Add fields to get the right level of detail in your view.</p>
+                                </li>
+                            </ul>
+                            <p>Now you are ready to begin focusing on your results to identify more specific areas of concern. In the next section, you will learn how to use filters and colors to help you explore your data visually.</p>
+                            <p class="next-step">Continue to <a href="get-started-tutorial-focus.html" class="MCXref xref">Step 3: Focus your results</a>.
+        </p>
+                            <p style="text-align: right;"><strong><a href="#top">Top ^</a></strong>
+                            </p>
+                            <hr width="100%" size="0" align="center" />
+                            <img src="Resources/Code/onLoad.png" onload="replayGifs();" alt="" />
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>
+
+PANDOCS GITHUB
+
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_tutorial_topnav" data-mc-search-type="Stem" data-mc-help-system-file-name="help.xml" data-mc-path-to-help-system="" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Steps">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Step 2: Drag and drop to take a first look</title>
+        <!-- Do not translate "section" and "subsection" -->
+        <meta name="section" content="Support" />
+        <meta name="subsection" content="Product Help" />
+        <!-- End of section not to translate -->
+        <meta name="breadcrumb_l1_text" content="Support" />
+        <meta name="breadcrumb_l1_url" content="http://www.tableau.com/en-us/support" />
+        <meta name="breadcrumb_l2_text" content="Product Help" />
+        <meta name="breadcrumb_l2_url" content="http://www.tableau.com/en-us/support/help" />
+        <!-- Google Tag Manager -->
+        <script type="text/javascript">/* <![CDATA[ */(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?String.fromCharCode(38)+'l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-BVCN');/* ]]> */</script>
+        <!-- End Google Tag Manager -->
+        <link href="Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="Resources/Stylesheets/guide-tutorial.css" rel="stylesheet" />
+        <link href="Resources/TableStyles/Shaded-NoBorder.css" rel="stylesheet" />
+        <script src="Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="Resources/Scripts/require.min.js">
+        </script>
+        <script src="Resources/Scripts/require.config.js">
+        </script>
+        <script src="Resources/Scripts/foundation.6.2.3_custom.js">
+        </script>
+        <script src="Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="Resources/Scripts/MadCapAll.js">
+        </script>
+        <script src="Resources/Code/replay_gifs.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="get-started-tutorial-home.html" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="21" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="Search">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                    <section class="main-section">
+                        <div class="row outer-row" data-mc-content-body="True">
+                            <script src="Resources/Code/feedback.js">
+                            </script>
+                            <div id="form-container">
+                                <form style="width:90%; float:left;" id="first-form"><span class="form-helpful-text form-visible">Was this page helpful?</span>
+                                    <div class="form-helpful-radio form-visible">
+                                        <input type="radio" name="form-helpful-radio" id="helpful-yes" value="1" onclick="submitRating();">Yes</input>
+                                        <input type="radio" name="form-helpful-radio" id="helpful-no" value="2" onclick="submitRating();">No</input>
+                                    </div>
+                                </form><span id="frame-caption" class="feedback-hidden">Have a comment? Please leave it here.</span><span id="post-submit-msg" class="feedback-hidden"><b>Thanks for your feedback!</b></span>
+                            </div>
+                            <h1>Step 2: Drag and drop to take a first look</h1>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /> This multi-step tutorial introduces Tableau Desktop. You are on <b>Step 2</b> of 8.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1"><a href="get-started-tutorial-connect.html" class="MCXref xref">Step 1: Connect to your data</a><![CDATA[            ]]></li>
+                                        <li value="2"><b>Step 2: Drag and drop to take a first look</b> (you are here)</li>
+                                        <li value="3"><a href="get-started-tutorial-focus.html" class="MCXref xref">Step 3: Focus your results</a><![CDATA[
+                    ]]></li>
+                                        <li value="4"><a href="get-started-tutorial-explore.html" class="MCXref xref">Step 4: Explore your data geographically</a>
+                                        </li>
+                                        <li value="5"><a href="get-started-tutorial-drilldown.html" class="MCXref xref">Step 5: Drill down into the details</a>
+                                        </li>
+                                        <li value="6"><a href="get-started-tutorial-build.html" class="MCXref xref">Step 6: Build a dashboard to show your insights</a>
+                                        </li>
+                                        <li value="7"><a href="get-started-tutorial-story.html" class="MCXref xref">Step 7: Build a story to present</a>
+                                        </li>
+                                        <li value="8"><a href="get-started-tutorial-share.html" class="MCXref xref">Step 8: Share your findings</a>
+                                        </li>
+                                    </ul>
+                                    <p>Want an overview?&#160;Head back to the <a href="get-started-tutorial-home.html">Introduction</a>.</p>
+                                </div>
+                            </div>
+                            <h2>Create a view</h2>
+                            <p>You set out to identify key areas for improvement, but where to start? With four years' worth of data, you decide to drill into the overall sales data between 2014 and 2017 to see what you find. Start by creating a simple chart.</p>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Terms in this section.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0">
+                                        <col class="Column-Column1" style="width: 247px;" />
+                                        <col class="Column-Column1" />
+                                        <tbody>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1"><b>Term</b>
+                                                </td>
+                                                <td class="BodyD-Column1-Body1"><b>Description</b>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyE-Column1-Body2">Aggregation</td>
+                                                <td class="BodyD-Column1-Body2">
+                                                    <p>Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1">Dimension vs Measure</td>
+                                                <td class="BodyD-Column1-Body1">
+                                                    <p>Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that
+contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view.</p>
+                                                    <p>Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyB-Column1-Body2">Continuous vs. Discrete</td>
+                                                <td class="BodyA-Column1-Body2">
+                                                    <p>Continuous fields  can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau.</p>
+                                                    <p>Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p><b>More on Dimensions and Measures</b> in the Learning Library (in the top menu).</p>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Tableau workspace controls and elements.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p>In this section, you'll drag fields to the Columns and Rows shelves, and you'll also work with the Marks card. The image below identifies some of the  workspace controls and elements  that you'll use.</p>
+                                    <p>
+                                        <img src="Img/Drag28.png" alt="" />
+                                    </p>
+                                    <table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0">
+                                        <col class="Column-Column1" style="width: 247px;" />
+                                        <col class="Column-Column1" />
+                                        <tbody>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1"><b>Element</b>
+                                                </td>
+                                                <td class="BodyD-Column1-Body1"><b>Description</b>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyE-Column1-Body2">Undo</td>
+                                                <td class="BodyD-Column1-Body2">
+                                                    <p>With Tableau, feel free to experiment with your data. You can always get back to where you started with the <span class="uicontrol">Undo</span> button. Use this button to reverse the last action you performed in your workbook. </p>
+                                                    <p>You can undo an unlimited number of times, back to the last time you opened the workbook, even after you  saved your work.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyE-Column1-Body1">Show/Hide Cards</td>
+                                                <td class="BodyD-Column1-Body1">
+                                                    <p>Did you accidentally hide a card that you now need? No problem! Just about everything on the Tableau workspace can be turned on or off to provide the maximum amount of room for you to create your visualizations.</p>
+                                                    <p>To show or hide  cards like <span class="uicontrol">Pages</span>, <span class="uicontrol">Filters</span> or <span class="uicontrol">Legends</span>, click the drop-down arrow on the <span class="uicontrol">Show/Hide Cards</span> <img src="Img/Drag30.png" alt="" /> button on the toolbar and clear or enable the check mark for the card.</p>
+                                                    <p>You can even collapse the Data and Analytics pane to the lower left corner of the workspace by clicking the <span class="uicontrol">Minimize</span> <img src="Img/Drag29.png" alt="" /> button at the top-right corner of the pane. Click the button again to restore the pane like it was.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body2">
+                                                <td class="BodyE-Column1-Body2">Data Pane</td>
+                                                <td class="BodyD-Column1-Body2">
+                                                    <p>Displays the name of the data set that is included in the view and the fields in the data set classified as either dimensions or measures.</p>
+                                                    <p><b>More on  the Data Pane</b> in the Learning Library (in the top menu).</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="Body-Body1">
+                                                <td class="BodyB-Column1-Body1">Cards and Shelves</td>
+                                                <td class="BodyA-Column1-Body1">
+                                                    <p>Cards are containers for the different controls that are available in&#160;Tableau. Shelves are a type of card control. When you drag fields from the Data pane to the Columns or Rows shelves, the data is added as a column or a row on the axes in your view.</p>
+                                                    <p>When you drag fields from the Data pane to the Marks card, you can control visual properties like type, color, size, shape, and more. Only the marks in your view are impacted by this action; axes do not change.</p>
+                                                    <p><b>More on  Cards and Shelves</b> in the Learning Library (in the top menu).</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <ol>
+                                <li value="1">
+                                    <p>From Dimensions in the Data pane, drag <b>Order Date</b> to the <b>Columns</b> shelf.</p>
+                                    <p><b>Note:</b> When you drag <span class="uicontrol">Order Date</span> to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an <span class="uicontrol">Abc</span> indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag <span class="uicontrol">Sales</span> to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.</p>
+                                </li>
+                                <li value="2">
+                                    <p>From Measures, drag <b>Sales</b> to the <b>Rows</b> shelf.</p>
+                                    <p>Tableau generates the following chart with sales rolled up as a sum (aggregated). You can see total aggregated sales for each year by order date.</p>
+                                </li>
+                                <p>
+                                    <img src="Img/Drag1.png" alt="" />
+                                </p>
+                                <p><i>Any time you create a view that includes time (in this case Order Date), Tableau generates a line chart.</i>
+                                </p>
+                            </ol>
+                            <p>This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Since you just got started, you decide to explore further and see what else you can find out.</p>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Explore your options.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p>To quickly change the chart type, select the drop-down menu on the <b>Marks</b> card. </p>
+                                    <p>For example, for an area chart, you can select <b>Area</b>. </p>
+                                    <p>
+                                        <img src="Img/Drag2.png" alt="" />
+                                    </p>
+                                    <p>Tableau supports many different chart types, referred to as Mark types. <b>More on Mark types</b> in the Learning Library (in the top menu).</p>
+                                    <p><b>Note:</b> Before you continue the tutorial, make sure your chart type is set back to <b>Automatic</b>.</p>
+                                </div>
+                            </div>
+                            <h3>Check your work!&#160;Watch "Create a view" in action.
+        </h3>
+                            <p><i>Click the image to replay it.</i>
+                                <br />
+                                <img src="Img/Drag23.gif" class="replay-gif" alt="" />
+                            </p>
+                            <p style="text-align: right;"><strong><a href="#top">Top ^</a></strong>
+                            </p>
+                            <hr width="100%" size="0" align="center" />
+                            <h2>Refine your view</h2>
+                            <p>To gain more insight into which products drive overall sales, try adding more data. Start by adding the product categories to look at sales totals in a different way.</p>
+                            <ol>
+                                <li value="1">From Dimensions, drag <b>Category</b> to the <b>Columns</b> shelf and place it to the right of YEAR(Order Date). 
+				<p>Your view updates to a bar chart. By adding a second discrete dimension to the view you can categorize your data into discrete chunks instead of looking at your data continuously over time. This creates a bar chart and shows you overall sales for each product category by year.</p><p><img src="Img/Drag4.png" alt="" /></p></li>
+                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more</b>: Show me the numbers.</a></span>
+                                    <div class="MCDropDownBody dropDownBody">
+                                        <p>You can view or add data point information to your view. In this example, this information shows exact sales totals by category.</p>
+                                        <p>To view information about each data point (that is, mark) in your view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Suplies category for 2017:</p>
+                                        <p>
+                                            <img src="Img/Drag5.png" alt="" />
+                                        </p>
+                                        <p>To add data point information as labels to your view, click  <b>Show Mark Labels</b>  on the toolbar. Below, we show the total sales for each category and year. </p>
+                                        <p><b>Note:</b>&#160;In the&#160;Get Started tutorial, text labels are not added to the view.</p>
+                                        <p>
+                                            <img src="Img/Drag6.png" alt="" />
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Change your perspective.</a></span>
+                                    <div class="MCDropDownBody dropDownBody">
+                                        <p>To display the bar chart horizontally instead of vertically, click  <b>Swap</b>  on the toolbar.</p>
+                                        <p><b>Note:</b>&#160;Undo this action before continuing the Get Started tutorial. </p>
+                                        <p>
+                                            <img src="Img/Drag7.png" alt="" />
+                                        </p>
+                                    </div>
+                                </div>
+                                <p>Your view is doing a great job showing sales by category—furniture, office supplies, and technology. An interesting insight is revealed!</p>
+                                <p>From this view, you can see that sales for furniture is growing faster than sales for office supplies, even though Office Supplies had a really good year in 2017. Perhaps you can recommend that your company focus sales efforts on furniture instead of office supplies? Your company sells a lot of different products in those categories, so you'll need more information before you can make a recommendation.</p>
+                                <p>To help answer that question, you decide to look at products by sub-category to see which items are the big sellers. For example, for the Furniture category, you want to see details about bookcases, chairs, furnishings, and tables. Looking at this data might help you gain insights into sales and later on, overall profitability, so add sub-categories to your bar chart.</p>
+                            </ol>
+                            <ol>
+                                <li value="2">Double-click or drag the <b>Sub-Category</b> dimension to the <b>Columns</b> shelf. </li>
+                                <p><b>Note:</b> You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click <span class="uicontrol">Undo</span> to remove the field, or drag it off the area where Tableau placed it to start over.</p>
+                                <p>Sub-Category is another discrete field. It creates another header at the bottom of the view, and shows a bar for each sub-category (68 marks) broken down by category and year.</p>
+                                <p>
+                                    <img src="Img/Drag9.png" alt="" />
+                                </p>
+                            </ol>
+                            <p>Now you are getting somewhere, but this is a lot of data to visually sort through. In the next section you will learn how you can add color, filters, and more to focus on specific results.</p>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b>&#160;Use a different view to compare product sales.</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p>If you want to see how your products contribute to overall sales by category, Tableau gives you another option. </p>
+                                    <p>If you drag the <b>Sub-Category</b> dimension to <b>Color</b> on the Marks card, you create a stacked bar chart with additional marks for each sub-category identified by a unique color. </p>
+                                    <p><b>Note:</b>&#160;Undo this action before continuing the Get Started tutorial.</p>
+                                    <p>
+                                        <img src="Img/Drag8.png" alt="" />
+                                    </p>
+                                    <p>This quickly shows you the amount of sales that each product contributes to the overall total for each category and year, and immediately shows the large and small contributors at a glance.</p>
+                                    <p>Sub-categories are displayed as stacked bars in the order that they are listed in the legend, not according to where they fall on the Sales axis. </p>
+                                    <p>For example, the above view shows you that bookcases contributed 38,544 USD in sales to the overall total of 170,518 USD for Furniture in 2015. The mark is displayed at the top of the bar because Bookcases is listed above Chairs, Furnishings, and Tables in the legend. The sub-categories are displayed in the legend so that you can move them around and examine your data in a way that makes sense to you. </p>
+                                    <p>Depending on the kind of analysis you want to do, the stacked bar chart might or might not be the chart for you.</p>
+                                </div>
+                            </div>
+                            <h3>Check your work!&#160;Watch "Refine your view" in action.
+        </h3>
+                            <p><i>Click the image to replay it</i>
+                                <br />
+                                <img src="Img/Drag24.gif" class="replay-gif" alt="" />
+                            </p>
+                            <p style="text-align: right;"><strong><a href="#top">Top ^</a></strong>
+                            </p>
+                            <hr width="100%" size="0" align="center" />
+                            <h2>Step summary</h2>
+                            <p>This step was all about getting to know your data and starting to ask questions about your data to gain insights.  You learned how to:</p>
+                            <ul>
+                                <li value="1">
+                                    <p>Create a chart in a view that works for you.</p>
+                                </li>
+                                <li value="2">
+                                    <p>Add fields to get the right level of detail in your view.</p>
+                                </li>
+                            </ul>
+                            <p>Now you are ready to begin focusing on your results to identify more specific areas of concern. In the next section, you will learn how to use filters and colors to help you explore your data visually.</p>
+                            <p class="next-step">Continue to <a href="get-started-tutorial-focus.html" class="MCXref xref">Step 3: Focus your results</a>.
+        </p>
+                            <p style="text-align: right;"><strong><a href="#top">Top ^</a></strong>
+                            </p>
+                            <hr width="100%" size="0" align="center" />
+                            <img src="Resources/Code/onLoad.png" onload="replayGifs();" alt="" />
+                        </div>
+                    </section><a data-close="true"></a>
+                </div>
+            </div>
+            <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
+        </div>
+    </body>
+</html>
+
+UNA ALTRA
 
 
+
+[](get-started-tutorial-home.html)
+
+  * placeholder
+
+  * All Files
+
+Was this page helpful?
+
+Yes No
+
+Have a comment? Please leave it here.**Thanks for your feedback!**
 
 # Step 2: Drag and drop to take a first look
 
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif) This multi-step
+tutorial introduces Tableau Desktop. You are on **Step 2** of
+8.](javascript:void\(0\);)
+
+  * [Step 1: Connect to your data](get-started-tutorial-connect.html)
+  * **Step 2: Drag and drop to take a first look** (you are here)
+  * [Step 3: Focus your results](get-started-tutorial-focus.html)
+  * [Step 4: Explore your data geographically](get-started-tutorial-explore.html)
+  * [Step 5: Drill down into the details](get-started-tutorial-drilldown.html)
+  * [Step 6: Build a dashboard to show your insights](get-started-tutorial-build.html)
+  * [Step 7: Build a story to present](get-started-tutorial-story.html)
+  * [Step 8: Share your findings](get-started-tutorial-share.html)
+
+Want an overview? Head back to the [Introduction](get-started-tutorial-
+home.html).
+
 ## Create a view
 
-You set out to identify key areas for improvement, but where to start? With four years' worth of data, you decide to drill into the overall sales data between 2014 and 2017 to see what you find. Start by creating a simple chart.
+You set out to identify key areas for improvement, but where to start? With
+four years' worth of data, you decide to drill into the overall sales data
+between 2014 and 2017 to see what you find. Start by creating a simple chart.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png)
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Terms in this section.](javascript:void\(0\);)
 
-<table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0"><colgroup><col class="Column-Column1" style="width: 247px;"> <col class="Column-Column1"></colgroup>
+**Term** | **Description**  
+---|---  
+Aggregation |
 
-<tbody>
+Row-level data rolled up to a higher category, such as sum of sales or total
+profit. Tableau does this automatically so you can break data down to the
+level of detail that you want to work with.  
+  
+Dimension vs Measure |
 
-<tr class="Body-Body1">
+Dimensions are qualitative data, such as a name or date. By default, Tableau
+automatically classifies data that contains qualitative or categorical
+information as a dimension, for example, any field with text or date values.
+These fields generally appear as column headers for rows of data, such as
+Customer Name or Order Date, and also define the level of granularity that
+shows in the view.
 
-<td class="BodyE-Column1-Body1">Term*/td>
+Measures are quantitative numerical data. By default, Tableau treats any field
+containing this kind of data as a measure, for example, sales transactions or
+profit. Data that is classified as a measure can be aggregated based on a
+given dimension, for example, total sales (Measure) by region (Dimension).  
+  
+Continuous vs. Discrete |
 
-<td class="BodyD-Column1-Body1">Description</td>
+Continuous fields can contain an infinite number of values. This can be a
+range of values such as sales within a specific date range or quantities.
+Continuous fields are colored green in Tableau.
 
-</tr>
-
-<tr class="Body-Body2">
-
-<td class="BodyE-Column1-Body2">Aggregation</td>
-
-<td class="BodyD-Column1-Body2">
-
-Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.
-
-</td>
-
-</tr>
-
-<tr class="Body-Body1">
-
-<td class="BodyE-Column1-Body1">Dimension vs Measure</td>
-
-<td class="BodyD-Column1-Body1">
-
-Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view.
-
-Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).
-
-</td>
-
-</tr>
-
-<tr class="Body-Body2">
-
-<td class="BodyB-Column1-Body2">Continuous vs. Discrete</td>
-
-<td class="BodyA-Column1-Body2">
-
-Continuous fields can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau.
-
-Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
+Discrete fields contain a finite number of values such as country, state, or
+customer name. Discrete fields are colored blue in Tableau.  
+  
 **More on Dimensions and Measures** in the Learning Library (in the top menu).
 
-</div>
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Tableau workspace controls and elements.](javascript:void\(0\);)
 
-</div>
-
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:** Tableau workspace controls and elements.](javascript:void(0);)</span>
-
-<div class="MCDropDownBody dropDownBody">
-
-In this section, you'll drag fields to the Columns and Rows shelves, and you'll also work with the Marks card. The image below identifies some of the workspace controls and elements that you'll use.
+In this section, you'll drag fields to the Columns and Rows shelves, and
+you'll also work with the Marks card. The image below identifies some of the
+workspace controls and elements that you'll use.
 
 ![](Img/Drag28.png)
 
-<table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0"><colgroup><col class="Column-Column1" style="width: 247px;"> <col class="Column-Column1"></colgroup>
+**Element** | **Description**  
+---|---  
+Undo |
 
-<tbody>
+With Tableau, feel free to experiment with your data. You can always get back
+to where you started with the Undo button. Use this button to reverse the last
+action you performed in your workbook.
 
-<tr class="Body-Body1">
+You can undo an unlimited number of times, back to the last time you opened
+the workbook, even after you saved your work.  
+  
+Show/Hide Cards |
 
-<td class="BodyE-Column1-Body1">**Element**</td>
+Did you accidentally hide a card that you now need? No problem! Just about
+everything on the Tableau workspace can be turned on or off to provide the
+maximum amount of room for you to create your visualizations.
 
-<td class="BodyD-Column1-Body1">**Description**</td>
+To show or hide cards like Pages, Filters or Legends, click the drop-down
+arrow on the Show/Hide Cards ![](Img/Drag30.png) button on the toolbar and
+clear or enable the check mark for the card.
 
-</tr>
+You can even collapse the Data and Analytics pane to the lower left corner of
+the workspace by clicking the Minimize ![](Img/Drag29.png) button at the top-
+right corner of the pane. Click the button again to restore the pane like it
+was.  
+  
+Data Pane |
 
-<tr class="Body-Body2">
+Displays the name of the data set that is included in the view and the fields
+in the data set classified as either dimensions or measures.
 
-<td class="BodyE-Column1-Body2">Undo</td>
+**More on the Data Pane** in the Learning Library (in the top menu).  
+  
+Cards and Shelves |
 
-<td class="BodyD-Column1-Body2">
+Cards are containers for the different controls that are available in Tableau.
+Shelves are a type of card control. When you drag fields from the Data pane to
+the Columns or Rows shelves, the data is added as a column or a row on the
+axes in your view.
 
-With Tableau, feel free to experiment with your data. You can always get back to where you started with the <span class="uicontrol">Undo</span> button. Use this button to reverse the last action you performed in your workbook.
+When you drag fields from the Data pane to the Marks card, you can control
+visual properties like type, color, size, shape, and more. Only the marks in
+your view are impacted by this action; axes do not change.
 
-You can undo an unlimited number of times, back to the last time you opened the workbook, even after you saved your work.
+**More on Cards and Shelves** in the Learning Library (in the top menu).  
+  
+  1. From Dimensions in the Data pane, drag **Order Date** to the **Columns** shelf.
 
-</td>
+**Note:** When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.
 
-</tr>
+  2. From Measures, drag **Sales** to the **Rows** shelf.
 
-<tr class="Body-Body1">
-
-<td class="BodyE-Column1-Body1">Show/Hide Cards</td>
-
-<td class="BodyD-Column1-Body1">
-
-Did you accidentally hide a card that you now need? No problem! Just about everything on the Tableau workspace can be turned on or off to provide the maximum amount of room for you to create your visualizations.
-
-To show or hide cards like <span class="uicontrol">Pages</span>, <span class="uicontrol">Filters</span> or <span class="uicontrol">Legends</span>, click the drop-down arrow on the <span class="uicontrol">Show/Hide Cards</span> ![](Img/Drag30.png) button on the toolbar and clear or enable the check mark for the card.
-
-You can even collapse the Data and Analytics pane to the lower left corner of the workspace by clicking the <span class="uicontrol">Minimize</span> ![](Img/Drag29.png) button at the top-right corner of the pane. Click the button again to restore the pane like it was.
-
-</td>
-
-</tr>
-
-<tr class="Body-Body2">
-
-<td class="BodyE-Column1-Body2">Data Pane</td>
-
-<td class="BodyD-Column1-Body2">
-
-Displays the name of the data set that is included in the view and the fields in the data set classified as either dimensions or measures.
-
-**More on the Data Pane** in the Learning Library (in the top menu).
-
-</td>
-
-</tr>
-
-<tr class="Body-Body1">
-
-<td class="BodyB-Column1-Body1">Cards and Shelves</td>
-
-<td class="BodyA-Column1-Body1">
-
-Cards are containers for the different controls that are available in Tableau. Shelves are a type of card control. When you drag fields from the Data pane to the Columns or Rows shelves, the data is added as a column or a row on the axes in your view.
-
-When you drag fields from the Data pane to the Marks card, you can control visual properties like type, color, size, shape, and more. Only the marks in your view are impacted by this action; axes do not change.
-
-**More on Cards and Shelves** in the Learning Library (in the top menu).
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-</div>
-
-1.  From Dimensions in the Data pane, drag **Order Date** to the **Columns** shelf.
-
-    **Note:** When you drag <span class="uicontrol">Order Date</span> to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an <span class="uicontrol">Abc</span> indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag <span class="uicontrol">Sales</span> to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.
-
-2.  From Measures, drag **Sales** to the **Rows** shelf.
-
-    Tableau generates the following chart with sales rolled up as a sum (aggregated). You can see total aggregated sales for each year by order date.
+Tableau generates the following chart with sales rolled up as a sum
+(aggregated). You can see total aggregated sales for each year by order date.
 
 ![](Img/Drag1.png)
 
-_Any time you create a view that includes time (in this case Order Date), Tableau generates a line chart._
+_Any time you create a view that includes time (in this case Order Date),
+Tableau generates a line chart._
 
-This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Since you just got started, you decide to explore further and see what else you can find out.
+This line chart shows that sales look pretty good and seem to be increasing
+over time. This is good information, but it doesn't really tell you much about
+which products have the strongest sales and if there are some products that
+might be performing better than others. Since you just got started, you decide
+to explore further and see what else you can find out.
 
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:** Explore your options.](javascript:void(0);)</span>
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Explore your options.](javascript:void\(0\);)
 
-<div class="MCDropDownBody dropDownBody">
-
-To quickly change the chart type, select the drop-down menu on the **Marks** card.
+To quickly change the chart type, select the drop-down menu on the **Marks**
+card.
 
 For example, for an area chart, you can select **Area**.
 
 ![](Img/Drag2.png)
 
-Tableau supports many different chart types, referred to as Mark types. **More on Mark types** in the Learning Library (in the top menu).
+Tableau supports many different chart types, referred to as Mark types. **More
+on Mark types** in the Learning Library (in the top menu).
 
 **Note:** Before you continue the tutorial, make sure your chart type is set back to **Automatic**.
 
-</div>
-
-</div>
-
-### Check your work! Watch "Create a view" in action.
+### Check your work! Watch "Create a view" in action.
 
 _Click the image to replay it._  
 ![](Img/Drag23.gif)
 
-**[Top ^](#top)**
+**Top ^**
 
 * * *
 
 ## Refine your view
 
-To gain more insight into which products drive overall sales, try adding more data. Start by adding the product categories to look at sales totals in a different way.
+To gain more insight into which products drive overall sales, try adding more
+data. Start by adding the product categories to look at sales totals in a
+different way.
 
-1.  From Dimensions, drag **Category** to the **Columns** shelf and place it to the right of YEAR(Order Date).
+  1. From Dimensions, drag **Category** to the **Columns** shelf and place it to the right of YEAR(Order Date). 
 
-    Your view updates to a bar chart. By adding a second discrete dimension to the view you can categorize your data into discrete chunks instead of looking at your data continuously over time. This creates a bar chart and shows you overall sales for each product category by year.
+Your view updates to a bar chart. By adding a second discrete dimension to the
+view you can categorize your data into discrete chunks instead of looking at
+your data continuously over time. This creates a bar chart and shows you
+overall sales for each product category by year.
 
-    ![](Img/Drag4.png)
+![](Img/Drag4.png)
 
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more**: Show me the numbers.](javascript:void(0);)</span>
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more**:
+Show me the numbers.](javascript:void\(0\);)
 
-<div class="MCDropDownBody dropDownBody">
+You can view or add data point information to your view. In this example, this
+information shows exact sales totals by category.
 
-You can view or add data point information to your view. In this example, this information shows exact sales totals by category.
-
-To view information about each data point (that is, mark) in your view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Suplies category for 2017:
+To view information about each data point (that is, mark) in your view, hover
+over one of the bars to reveal a tooltip. The tooltip displays total sales for
+that category. Here is the tooltip for the Office Suplies category for 2017:
 
 ![](Img/Drag5.png)
 
-To add data point information as labels to your view, click **Show Mark Labels** on the toolbar. Below, we show the total sales for each category and year.
+To add data point information as labels to your view, click **Show Mark
+Labels** on the toolbar. Below, we show the total sales for each category and
+year.
 
-**Note:** In the Get Started tutorial, text labels are not added to the view.
+**Note:** In the Get Started tutorial, text labels are not added to the view.
 
 ![](Img/Drag6.png)
 
-</div>
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Change your perspective.](javascript:void\(0\);)
 
-</div>
+To display the bar chart horizontally instead of vertically, click **Swap** on
+the toolbar.
 
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:** Change your perspective.](javascript:void(0);)</span>
-
-<div class="MCDropDownBody dropDownBody">
-
-To display the bar chart horizontally instead of vertically, click **Swap** on the toolbar.
-
-**Note:** Undo this action before continuing the Get Started tutorial.
+**Note:** Undo this action before continuing the Get Started tutorial. 
 
 ![](Img/Drag7.png)
 
-</div>
+Your view is doing a great job showing sales by categoryâfurniture, office
+supplies, and technology. An interesting insight is revealed!
 
-</div>
+From this view, you can see that sales for furniture is growing faster than
+sales for office supplies, even though Office Supplies had a really good year
+in 2017. Perhaps you can recommend that your company focus sales efforts on
+furniture instead of office supplies? Your company sells a lot of different
+products in those categories, so you'll need more information before you can
+make a recommendation.
 
-Your view is doing a great job showing sales by category—furniture, office supplies, and technology. An interesting insight is revealed!
+To help answer that question, you decide to look at products by sub-category
+to see which items are the big sellers. For example, for the Furniture
+category, you want to see details about bookcases, chairs, furnishings, and
+tables. Looking at this data might help you gain insights into sales and later
+on, overall profitability, so add sub-categories to your bar chart.
 
-From this view, you can see that sales for furniture is growing faster than sales for office supplies, even though Office Supplies had a really good year in 2017\. Perhaps you can recommend that your company focus sales efforts on furniture instead of office supplies? Your company sells a lot of different products in those categories, so you'll need more information before you can make a recommendation.
+  1. Double-click or drag the **Sub-Category** dimension to the **Columns** shelf. 
 
-To help answer that question, you decide to look at products by sub-category to see which items are the big sellers. For example, for the Furniture category, you want to see details about bookcases, chairs, furnishings, and tables. Looking at this data might help you gain insights into sales and later on, overall profitability, so add sub-categories to your bar chart.
+**Note:** You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click Undo to remove the field, or drag it off the area where Tableau placed it to start over.
 
-1.  Double-click or drag the **Sub-Category** dimension to the **Columns** shelf.
-
-**Note:** You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click <span class="uicontrol">Undo</span> to remove the field, or drag it off the area where Tableau placed it to start over.
-
-Sub-Category is another discrete field. It creates another header at the bottom of the view, and shows a bar for each sub-category (68 marks) broken down by category and year.
+Sub-Category is another discrete field. It creates another header at the
+bottom of the view, and shows a bar for each sub-category (68 marks) broken
+down by category and year.
 
 ![](Img/Drag9.png)
 
-Now you are getting somewhere, but this is a lot of data to visually sort through. In the next section you will learn how you can add color, filters, and more to focus on specific results.
+Now you are getting somewhere, but this is a lot of data to visually sort
+through. In the next section you will learn how you can add color, filters,
+and more to focus on specific results.
 
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:** Use a different view to compare product sales.](javascript:void(0);)</span>
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Use a different view to compare product sales.](javascript:void\(0\);)
 
-<div class="MCDropDownBody dropDownBody">
+If you want to see how your products contribute to overall sales by category,
+Tableau gives you another option.
 
-If you want to see how your products contribute to overall sales by category, Tableau gives you another option.
+If you drag the **Sub-Category** dimension to **Color** on the Marks card, you
+create a stacked bar chart with additional marks for each sub-category
+identified by a unique color.
 
-If you drag the **Sub-Category** dimension to **Color** on the Marks card, you create a stacked bar chart with additional marks for each sub-category identified by a unique color.
-
-**Note:** Undo this action before continuing the Get Started tutorial.
+**Note:** Undo this action before continuing the Get Started tutorial.
 
 ![](Img/Drag8.png)
 
-This quickly shows you the amount of sales that each product contributes to the overall total for each category and year, and immediately shows the large and small contributors at a glance.
+This quickly shows you the amount of sales that each product contributes to
+the overall total for each category and year, and immediately shows the large
+and small contributors at a glance.
 
-Sub-categories are displayed as stacked bars in the order that they are listed in the legend, not according to where they fall on the Sales axis.
+Sub-categories are displayed as stacked bars in the order that they are listed
+in the legend, not according to where they fall on the Sales axis.
 
-For example, the above view shows you that bookcases contributed 38,544 USD in sales to the overall total of 170,518 USD for Furniture in 2015\. The mark is displayed at the top of the bar because Bookcases is listed above Chairs, Furnishings, and Tables in the legend. The sub-categories are displayed in the legend so that you can move them around and examine your data in a way that makes sense to you.
+For example, the above view shows you that bookcases contributed 38,544 USD in
+sales to the overall total of 170,518 USD for Furniture in 2015. The mark is
+displayed at the top of the bar because Bookcases is listed above Chairs,
+Furnishings, and Tables in the legend. The sub-categories are displayed in the
+legend so that you can move them around and examine your data in a way that
+makes sense to you.
 
-Depending on the kind of analysis you want to do, the stacked bar chart might or might not be the chart for you.
+Depending on the kind of analysis you want to do, the stacked bar chart might
+or might not be the chart for you.
 
-</div>
-
-</div>
-
-### Check your work! Watch "Refine your view" in action.
+### Check your work! Watch "Refine your view" in action.
 
 _Click the image to replay it_  
 ![](Img/Drag24.gif)
 
-**[Top ^](#top)**
+**Top ^**
 
 * * *
 
 ## Step summary
 
-This step was all about getting to know your data and starting to ask questions about your data to gain insights. You learned how to:
+This step was all about getting to know your data and starting to ask
+questions about your data to gain insights. You learned how to:
 
-*   Create a chart in a view that works for you.
+  * Create a chart in a view that works for you.
 
-*   Add fields to get the right level of detail in your view.
+  * Add fields to get the right level of detail in your view.
 
-Now you are ready to begin focusing on your results to identify more specific areas of concern. In the next section, you will learn how to use filters and colors to help you explore your data visually.
+Now you are ready to begin focusing on your results to identify more specific
+areas of concern. In the next section, you will learn how to use filters and
+colors to help you explore your data visually.
 
 Continue to [Step 3: Focus your results](get-started-tutorial-focus.html).
 
-**[Top ^](#top)**
+**Top ^**
 
 * * *
 
-![](Resources/Code/onLoad.png)</div>
+![](Resources/Code/onLoad.png)
 
-</section>
 
-<a data-close="true"></a></div>
-
-</div>
-
-<script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script></div>
