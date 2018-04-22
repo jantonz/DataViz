@@ -544,24 +544,11 @@ Terms in this section.](javascript:void\(0\);)
 
 **Term** | **Description**  
 --- | ---  
-Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total
-profit. Tableau does this automatically so you can break data down to the
-level of detail that you want to work with.  
+Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.  
   
-Dimension vs Measure | Dimensions are qualitative data, such as a name or date. By default, Tableau
-automatically classifies data that contains qualitative or categorical
-information as a dimension, for example, any field with text or date values.
-These fields generally appear as column headers for rows of data, such as
-Customer Name or Order Date, and also define the level of granularity that
-shows in the view. Measures are quantitative numerical data. By default, Tableau treats any field
-containing this kind of data as a measure, for example, sales transactions or
-profit. Data that is classified as a measure can be aggregated based on a
-given dimension, for example, total sales (Measure) by region (Dimension).  
+Dimension vs Measure | Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view. Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).
   
-Continuous vs. Discrete | Continuous fields can contain an infinite number of values. This can be a
-range of values such as sales within a specific date range or quantities.
-Continuous fields are colored green in Tableau. Discrete fields contain a finite number of values such as country, state, or
-customer name. Discrete fields are colored blue in Tableau.  
+Continuous vs. Discrete | Continuous fields can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau. Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.  
   
 **More on Dimensions and Measures** in the Learning Library (in the top menu).
 
