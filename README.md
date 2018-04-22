@@ -41,14 +41,225 @@ En obrir el programa se'ns obre la pàgina d'inici:
 4. **Sample Workbooks** hi ha exemples de projectes.
 5. A **Discover** hi ha diversos recursos online com tutorials, vídeos, etc.
 
+Un full de treball té aquesta pinta:
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png)
+
+**Element** | **Description**
+--- | ---  
+Undo | És el botó de deshacer/desfés. També funciona el Ctrl + Z.
+Cards i Shelves | _Cartes i Prestatges_. Cards són els contenidors dels diferents contorls de Tableau. Shelves és una manera de controlar Cards. Quan arrastres un camp des del panell Data fins a un prestatge de Columna o Fila, les dades s'afegeixen a l'eix X o Y.  Si arrastres camps del panell de Data fins a la carta Marks, pots controlar propietats com el color, forma, etc.
+Data Pane | Et permet veure les dades que hi ha al dataset carregat, com el nom de les columnes.
+Show/Hide Cards | Per mostrar o amagar Cartes.  
+
+Alguns altres conceptes sobre Tableau:
+
+**Term** | **Description**
+--- | ---  
+Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.  
+Dimension vs. Measure | Dimensions són variables/dades categòriques; Measures són dades quantitatives (numèriques). És força típic _agregar_ dades quantitatives segons una o diverses variables categòriques (ex: vendes (Measure) per regió (Dimension).
+
 ## 2.3. Llegir dades
 
-
-In the Connect pane, under Saved Data Sources, click on Sample - Superstore to connect to the sample data set. Your screen will look something like this:
+_Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccionar una font de dades. En aquest cas, ens connectarem a un dataset de mostra que es diu Sample - Superstore.
 
 ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect4.png)
 
 The Sample - Superstore data set comes with Tableau. It contains information about products, sales, profits, and so on that you can use to identify key areas for improvement within this fictitious company.
+
+# Step 2: Drag and drop to take a first look
+
+## Create a view
+
+You set out to identify key areas for improvement, but where to start? With
+four years' worth of data, you decide to drill into the overall sales data
+between 2014 and 2017 to see what you find. Start by creating a simple chart.
+
+  
+In this section, you'll drag fields to the Columns and Rows shelves, and
+you'll also work with the Marks card. The image below identifies some of the
+workspace controls and elements that you'll use.
+ 
+  1. From Dimensions in the Data pane, drag **Order Date** to the **Columns** shelf.
+
+**Note:** When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.
+
+  2. From Measures, drag **Sales** to the **Rows** shelf.
+
+Tableau generates the following chart with sales rolled up as a sum
+(aggregated). You can see total aggregated sales for each year by order date.
+
+![](Img/Drag1.png)
+
+_Any time you create a view that includes time (in this case Order Date),
+Tableau generates a line chart._
+
+This line chart shows that sales look pretty good and seem to be increasing
+over time. This is good information, but it doesn't really tell you much about
+which products have the strongest sales and if there are some products that
+might be performing better than others. Since you just got started, you decide
+to explore further and see what else you can find out.
+
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Explore your options.](javascript:void\(0\);)
+
+To quickly change the chart type, select the drop-down menu on the **Marks**
+card.
+
+For example, for an area chart, you can select **Area**.
+
+![](Img/Drag2.png)
+
+Tableau supports many different chart types, referred to as Mark types. **More
+on Mark types** in the Learning Library (in the top menu).
+
+**Note:** Before you continue the tutorial, make sure your chart type is set back to **Automatic**.
+
+### Check your work! Watch "Create a view" in action.
+
+_Click the image to replay it._  
+![](Img/Drag23.gif)
+
+**Top ^**
+
+* * *
+
+## Refine your view
+
+To gain more insight into which products drive overall sales, try adding more
+data. Start by adding the product categories to look at sales totals in a
+different way.
+
+  1. From Dimensions, drag **Category** to the **Columns** shelf and place it to the right of YEAR(Order Date). 
+
+Your view updates to a bar chart. By adding a second discrete dimension to the
+view you can categorize your data into discrete chunks instead of looking at
+your data continuously over time. This creates a bar chart and shows you
+overall sales for each product category by year.
+
+![](Img/Drag4.png)
+
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more**:
+Show me the numbers.](javascript:void\(0\);)
+
+You can view or add data point information to your view. In this example, this
+information shows exact sales totals by category.
+
+To view information about each data point (that is, mark) in your view, hover
+over one of the bars to reveal a tooltip. The tooltip displays total sales for
+that category. Here is the tooltip for the Office Suplies category for 2017:
+
+![](Img/Drag5.png)
+
+To add data point information as labels to your view, click **Show Mark
+Labels** on the toolbar. Below, we show the total sales for each category and
+year.
+
+**Note:** In the Get Started tutorial, text labels are not added to the view.
+
+![](Img/Drag6.png)
+
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Change your perspective.](javascript:void\(0\);)
+
+To display the bar chart horizontally instead of vertically, click **Swap** on
+the toolbar.
+
+**Note:** Undo this action before continuing the Get Started tutorial. 
+
+![](Img/Drag7.png)
+
+Your view is doing a great job showing sales by categoryâfurniture, office
+supplies, and technology. An interesting insight is revealed!
+
+From this view, you can see that sales for furniture is growing faster than
+sales for office supplies, even though Office Supplies had a really good year
+in 2017. Perhaps you can recommend that your company focus sales efforts on
+furniture instead of office supplies? Your company sells a lot of different
+products in those categories, so you'll need more information before you can
+make a recommendation.
+
+To help answer that question, you decide to look at products by sub-category
+to see which items are the big sellers. For example, for the Furniture
+category, you want to see details about bookcases, chairs, furnishings, and
+tables. Looking at this data might help you gain insights into sales and later
+on, overall profitability, so add sub-categories to your bar chart.
+
+  1. Double-click or drag the **Sub-Category** dimension to the **Columns** shelf. 
+
+**Note:** You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click Undo to remove the field, or drag it off the area where Tableau placed it to start over.
+
+Sub-Category is another discrete field. It creates another header at the
+bottom of the view, and shows a bar for each sub-category (68 marks) broken
+down by category and year.
+
+![](Img/Drag9.png)
+
+Now you are getting somewhere, but this is a lot of data to visually sort
+through. In the next section you will learn how you can add color, filters,
+and more to focus on specific results.
+
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Use a different view to compare product sales.](javascript:void\(0\);)
+
+If you want to see how your products contribute to overall sales by category,
+Tableau gives you another option.
+
+If you drag the **Sub-Category** dimension to **Color** on the Marks card, you
+create a stacked bar chart with additional marks for each sub-category
+identified by a unique color.
+
+**Note:** Undo this action before continuing the Get Started tutorial.
+
+![](Img/Drag8.png)
+
+This quickly shows you the amount of sales that each product contributes to
+the overall total for each category and year, and immediately shows the large
+and small contributors at a glance.
+
+Sub-categories are displayed as stacked bars in the order that they are listed
+in the legend, not according to where they fall on the Sales axis.
+
+For example, the above view shows you that bookcases contributed 38,544 USD in
+sales to the overall total of 170,518 USD for Furniture in 2015. The mark is
+displayed at the top of the bar because Bookcases is listed above Chairs,
+Furnishings, and Tables in the legend. The sub-categories are displayed in the
+legend so that you can move them around and examine your data in a way that
+makes sense to you.
+
+Depending on the kind of analysis you want to do, the stacked bar chart might
+or might not be the chart for you.
+
+### Check your work! Watch "Refine your view" in action.
+
+_Click the image to replay it_  
+![](Img/Drag24.gif)
+
+**Top ^**
+
+* * *
+
+## Step summary
+
+This step was all about getting to know your data and starting to ask
+questions about your data to gain insights. You learned how to:
+
+  * Create a chart in a view that works for you.
+
+  * Add fields to get the right level of detail in your view.
+
+Now you are ready to begin focusing on your results to identify more specific
+areas of concern. In the next section, you will learn how to use filters and
+colors to help you explore your data visually.
+
+Continue to [Step 3: Focus your results](get-started-tutorial-focus.html).
+
+**Top ^**
+
+* * *
+
+![](Resources/Code/onLoad.png)
+
 
 
 
@@ -334,211 +545,3 @@ _Josep Anton Mir Tutusaus. 2018 ._
 <br><br>
 
 -----------------------------------
-# Step 2: Drag and drop to take a first look
-
-## Create a view
-
-You set out to identify key areas for improvement, but where to start? With
-four years' worth of data, you decide to drill into the overall sales data
-between 2014 and 2017 to see what you find. Start by creating a simple chart.
-
-**Term** | **Description**
---- | ---  
-Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.  
-Dimension vs Measure | Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view. Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).
-Continuous vs. Discrete | Continuous fields can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau. Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.  
-  
-In this section, you'll drag fields to the Columns and Rows shelves, and
-you'll also work with the Marks card. The image below identifies some of the
-workspace controls and elements that you'll use.
-
-![](Img/Drag28.png)
-
-**Element** | **Description**
---- | ---  
-Undo | With Tableau, feel free to experiment with your data. You can always get back to where you started with the Undo button. Use this button to reverse the last action you performed in your workbook. You can undo an unlimited number of times, back to the last time you opened the workbook, even after you saved your work.
-Show/Hide Cards | Did you accidentally hide a card that you now need? No problem! Just about everything on the Tableau workspace can be turned on or off to provide the maximum amount of room for you to create your visualizations. To show or hide cards like Pages, Filters or Legends, click the drop-down arrow on the Show/Hide Cards ![](Img/Drag30.png) button on the toolbar and clear or enable the check mark for the card. You can even collapse the Data and Analytics pane to the lower left corner of the workspace by clicking the Minimize ![](Img/Drag29.png) button at the top-right corner of the pane. Click the button again to restore the pane like it was.  
-Data Pane | Displays the name of the data set that is included in the view and the fields in the data set classified as either dimensions or measures.
-Cards and Shelves | Cards are containers for the different controls that are available in Tableau. Shelves are a type of card control. When you drag fields from the Data pane to the Columns or Rows shelves, the data is added as a column or a row on the axes in your view. When you drag fields from the Data pane to the Marks card, you can control visual properties like type, color, size, shape, and more. Only the marks in your view are impacted by this action; axes do not change.
-  
-  1. From Dimensions in the Data pane, drag **Order Date** to the **Columns** shelf.
-
-**Note:** When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.
-
-  2. From Measures, drag **Sales** to the **Rows** shelf.
-
-Tableau generates the following chart with sales rolled up as a sum
-(aggregated). You can see total aggregated sales for each year by order date.
-
-![](Img/Drag1.png)
-
-_Any time you create a view that includes time (in this case Order Date),
-Tableau generates a line chart._
-
-This line chart shows that sales look pretty good and seem to be increasing
-over time. This is good information, but it doesn't really tell you much about
-which products have the strongest sales and if there are some products that
-might be performing better than others. Since you just got started, you decide
-to explore further and see what else you can find out.
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Explore your options.](javascript:void\(0\);)
-
-To quickly change the chart type, select the drop-down menu on the **Marks**
-card.
-
-For example, for an area chart, you can select **Area**.
-
-![](Img/Drag2.png)
-
-Tableau supports many different chart types, referred to as Mark types. **More
-on Mark types** in the Learning Library (in the top menu).
-
-**Note:** Before you continue the tutorial, make sure your chart type is set back to **Automatic**.
-
-### Check your work! Watch "Create a view" in action.
-
-_Click the image to replay it._  
-![](Img/Drag23.gif)
-
-**Top ^**
-
-* * *
-
-## Refine your view
-
-To gain more insight into which products drive overall sales, try adding more
-data. Start by adding the product categories to look at sales totals in a
-different way.
-
-  1. From Dimensions, drag **Category** to the **Columns** shelf and place it to the right of YEAR(Order Date). 
-
-Your view updates to a bar chart. By adding a second discrete dimension to the
-view you can categorize your data into discrete chunks instead of looking at
-your data continuously over time. This creates a bar chart and shows you
-overall sales for each product category by year.
-
-![](Img/Drag4.png)
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more**:
-Show me the numbers.](javascript:void\(0\);)
-
-You can view or add data point information to your view. In this example, this
-information shows exact sales totals by category.
-
-To view information about each data point (that is, mark) in your view, hover
-over one of the bars to reveal a tooltip. The tooltip displays total sales for
-that category. Here is the tooltip for the Office Suplies category for 2017:
-
-![](Img/Drag5.png)
-
-To add data point information as labels to your view, click **Show Mark
-Labels** on the toolbar. Below, we show the total sales for each category and
-year.
-
-**Note:** In the Get Started tutorial, text labels are not added to the view.
-
-![](Img/Drag6.png)
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Change your perspective.](javascript:void\(0\);)
-
-To display the bar chart horizontally instead of vertically, click **Swap** on
-the toolbar.
-
-**Note:** Undo this action before continuing the Get Started tutorial. 
-
-![](Img/Drag7.png)
-
-Your view is doing a great job showing sales by categoryâfurniture, office
-supplies, and technology. An interesting insight is revealed!
-
-From this view, you can see that sales for furniture is growing faster than
-sales for office supplies, even though Office Supplies had a really good year
-in 2017. Perhaps you can recommend that your company focus sales efforts on
-furniture instead of office supplies? Your company sells a lot of different
-products in those categories, so you'll need more information before you can
-make a recommendation.
-
-To help answer that question, you decide to look at products by sub-category
-to see which items are the big sellers. For example, for the Furniture
-category, you want to see details about bookcases, chairs, furnishings, and
-tables. Looking at this data might help you gain insights into sales and later
-on, overall profitability, so add sub-categories to your bar chart.
-
-  1. Double-click or drag the **Sub-Category** dimension to the **Columns** shelf. 
-
-**Note:** You can drag and drop or double-click a field to add it to your view, but be careful. Tableau makes assumptions about where to add that data and it might not be placed where you expect. You can always click Undo to remove the field, or drag it off the area where Tableau placed it to start over.
-
-Sub-Category is another discrete field. It creates another header at the
-bottom of the view, and shows a bar for each sub-category (68 marks) broken
-down by category and year.
-
-![](Img/Drag9.png)
-
-Now you are getting somewhere, but this is a lot of data to visually sort
-through. In the next section you will learn how you can add color, filters,
-and more to focus on specific results.
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Use a different view to compare product sales.](javascript:void\(0\);)
-
-If you want to see how your products contribute to overall sales by category,
-Tableau gives you another option.
-
-If you drag the **Sub-Category** dimension to **Color** on the Marks card, you
-create a stacked bar chart with additional marks for each sub-category
-identified by a unique color.
-
-**Note:** Undo this action before continuing the Get Started tutorial.
-
-![](Img/Drag8.png)
-
-This quickly shows you the amount of sales that each product contributes to
-the overall total for each category and year, and immediately shows the large
-and small contributors at a glance.
-
-Sub-categories are displayed as stacked bars in the order that they are listed
-in the legend, not according to where they fall on the Sales axis.
-
-For example, the above view shows you that bookcases contributed 38,544 USD in
-sales to the overall total of 170,518 USD for Furniture in 2015. The mark is
-displayed at the top of the bar because Bookcases is listed above Chairs,
-Furnishings, and Tables in the legend. The sub-categories are displayed in the
-legend so that you can move them around and examine your data in a way that
-makes sense to you.
-
-Depending on the kind of analysis you want to do, the stacked bar chart might
-or might not be the chart for you.
-
-### Check your work! Watch "Refine your view" in action.
-
-_Click the image to replay it_  
-![](Img/Drag24.gif)
-
-**Top ^**
-
-* * *
-
-## Step summary
-
-This step was all about getting to know your data and starting to ask
-questions about your data to gain insights. You learned how to:
-
-  * Create a chart in a view that works for you.
-
-  * Add fields to get the right level of detail in your view.
-
-Now you are ready to begin focusing on your results to identify more specific
-areas of concern. In the next section, you will learn how to use filters and
-colors to help you explore your data visually.
-
-Continue to [Step 3: Focus your results](get-started-tutorial-focus.html).
-
-**Top ^**
-
-* * *
-
-![](Resources/Code/onLoad.png)
-
-
