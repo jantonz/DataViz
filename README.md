@@ -65,55 +65,29 @@ _Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccio
 
 ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect4.png)
 
-The Sample - Superstore data set comes with Tableau. It contains information about products, sales, profits, and so on that you can use to identify key areas for improvement within this fictitious company.
+Aquest dataset d'exemple conté informació sobre productes, vendes, beneficis, etc.
 
-# Step 2: Drag and drop to take a first look
+## 3.4. Exploraroty Data Analysis (EDA)
 
-## Create a view
+El dataset conté 4 anys de dades i començarem amb donar un cop d'ull a les dades de vendes (sales) del 2014 al 2017. Creem un gràfic simple!
 
-You set out to identify key areas for improvement, but where to start? With
-four years' worth of data, you decide to drill into the overall sales data
-between 2014 and 2017 to see what you find. Start by creating a simple chart.
+Bona part del workflow a Tableau es basa en arrastrar amb el ratolí. 
+1. Des de Dimensions, arrastrem **Order Date** al prestatge **Columns**.
+2. Des de Measures, arrastrem **Sales** al prestatge **Rows**.
 
-  
-In this section, you'll drag fields to the Columns and Rows shelves, and
-you'll also work with the Marks card. The image below identifies some of the
-workspace controls and elements that you'll use.
- 
-  1. From Dimensions in the Data pane, drag **Order Date** to the **Columns** shelf.
+Tableau genera el gràfic amb les vendes agregades com a suma.
 
-**Note:** When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a crosstab (like a spreadsheet) and displays the sales totals for each year.
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag23.gif)
 
-  2. From Measures, drag **Sales** to the **Rows** shelf.
+_Sempre que creeu un gràfic que inclou temps (en aquest cas, el camp Order Date), Tableau genera un gràfic de línia._
 
-Tableau generates the following chart with sales rolled up as a sum
-(aggregated). You can see total aggregated sales for each year by order date.
+Per canviar el tipus de gràfic, seleccionem el menú drop-down **Marks**. Provem, per exemple, amb **Area**.
 
-![](Img/Drag1.png)
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag2.png)
 
-_Any time you create a view that includes time (in this case Order Date),
-Tableau generates a line chart._
+**Nota:** Abans de continuar, tornem a seleccionar **Automatic**.
 
-This line chart shows that sales look pretty good and seem to be increasing
-over time. This is good information, but it doesn't really tell you much about
-which products have the strongest sales and if there are some products that
-might be performing better than others. Since you just got started, you decide
-to explore further and see what else you can find out.
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Explore your options.](javascript:void\(0\);)
-
-To quickly change the chart type, select the drop-down menu on the **Marks**
-card.
-
-For example, for an area chart, you can select **Area**.
-
-![](Img/Drag2.png)
-
-Tableau supports many different chart types, referred to as Mark types. **More
-on Mark types** in the Learning Library (in the top menu).
-
-**Note:** Before you continue the tutorial, make sure your chart type is set back to **Automatic**.
+Observem que les vendes augmenten anualment, però la informació continua essent força pobra. Explorem una mica més, a veure quins productes estan funcionant millor.
 
 ### Check your work! Watch "Create a view" in action.
 
