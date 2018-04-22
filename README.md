@@ -539,73 +539,28 @@ You set out to identify key areas for improvement, but where to start? With
 four years' worth of data, you decide to drill into the overall sales data
 between 2014 and 2017 to see what you find. Start by creating a simple chart.
 
-                            <h2>Create a view</h2>
-                            <p>You set out to identify key areas for improvement, but where to start? With four years' worth of data, you decide to drill into the overall sales data between 2014 and 2017 to see what you find. Start by creating a simple chart.</p>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><b>Learn more:</b> Terms in this section.</a></span>
-                                <div class="MCDropDownBody dropDownBody">
-                                    <table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0">
-                                        <col class="Column-Column1" style="width: 247px;" />
-                                        <col class="Column-Column1" />
-                                        <tbody>
-                                            <tr class="Body-Body1">
-                                                <td class="BodyE-Column1-Body1"><b>Term</b>
-                                                </td>
-                                                <td class="BodyD-Column1-Body1"><b>Description</b>
-                                                </td>
-                                            </tr>
-                                            <tr class="Body-Body2">
-                                                <td class="BodyE-Column1-Body2">Aggregation</td>
-                                                <td class="BodyD-Column1-Body2">
-                                                    <p>Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.</p>
-                                                </td>
-                                            </tr>
-                                            <tr class="Body-Body1">
-                                                <td class="BodyE-Column1-Body1">Dimension vs Measure</td>
-                                                <td class="BodyD-Column1-Body1">
-                                                    <p>Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that
-contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view.</p>
-                                                    <p>Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).</p>
-                                                </td>
-                                            </tr>
-                                            <tr class="Body-Body2">
-                                                <td class="BodyB-Column1-Body2">Continuous vs. Discrete</td>
-                                                <td class="BodyA-Column1-Body2">
-                                                    <p>Continuous fields  can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau.</p>
-                                                    <p>Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.</p>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <p><b>More on Dimensions and Measures</b> in the Learning Library (in the top menu).</p>
-                                </div>
-                            </div>
-
 [![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
 Terms in this section.](javascript:void\(0\);)
 
 **Term** | **Description**  
----|---  
-Aggregation |Row-level data rolled up to a higher category, such as sum of sales or total
+--- | ---  
+Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total
 profit. Tableau does this automatically so you can break data down to the
 level of detail that you want to work with.  
   
-Dimension vs Measure |Dimensions are qualitative data, such as a name or date. By default, Tableau
+Dimension vs Measure | Dimensions are qualitative data, such as a name or date. By default, Tableau
 automatically classifies data that contains qualitative or categorical
 information as a dimension, for example, any field with text or date values.
 These fields generally appear as column headers for rows of data, such as
 Customer Name or Order Date, and also define the level of granularity that
-shows in the view.
-
-Measures are quantitative numerical data. By default, Tableau treats any field
+shows in the view. Measures are quantitative numerical data. By default, Tableau treats any field
 containing this kind of data as a measure, for example, sales transactions or
 profit. Data that is classified as a measure can be aggregated based on a
 given dimension, for example, total sales (Measure) by region (Dimension).  
   
-Continuous vs. Discrete |Continuous fields can contain an infinite number of values. This can be a
+Continuous vs. Discrete | Continuous fields can contain an infinite number of values. This can be a
 range of values such as sales within a specific date range or quantities.
-Continuous fields are colored green in Tableau.
-
-Discrete fields contain a finite number of values such as country, state, or
+Continuous fields are colored green in Tableau. Discrete fields contain a finite number of values such as country, state, or
 customer name. Discrete fields are colored blue in Tableau.  
   
 **More on Dimensions and Measures** in the Learning Library (in the top menu).
