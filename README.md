@@ -69,7 +69,7 @@ Aquest dataset d'exemple conté informació sobre productes, vendes, beneficis, 
 
 ## 2.4. Exploraroty Data Analysis (EDA)
 
-# Step 2: Drag and drop to take a first look
+### Step 2: Drag and drop to take a first look
 
 El dataset conté 4 anys de dades i començarem amb donar un cop d'ull a les dades de vendes (sales) del 2014 al 2017. Creem un gràfic simple!
 
@@ -93,7 +93,7 @@ Observem que les vendes augmenten anualment, però la informació continua essen
 
 * * *
 
-### Refinem el gràfic
+### Step 3: Refinem el gràfic
 
 Una bona manera serà afegint dades cateegòriques:
     1. Des de Dimensions, arrastra **Category** al prestatge **Columns** a la dreta de YEAR(Order Date). 
@@ -128,7 +128,7 @@ Tornem a la visualització anterior abans de continuar.
 
 * * *
 
-## Afegim filtres
+### Afegim filtres
 
 Els filtres serveixen per incloure o excloure valors del gràfic. En aquest exemple afegim dos filtres per fer més fàcil visualitzar les vendes per subcategoria en un any en concret.
 
@@ -140,7 +140,7 @@ Els filtres s'afegeixen a la part dreta del full però es poden moure allà on c
 
 ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag25.gif)
 
-## Afegim color
+### Afegim color
 
 Podem veure que alguns productes es venen poc, de forma consistent durant els 4 anys. Però potser no és així pel que fa al benefici. Arrastrem **Profit** a **Color** a la carta Marks a veure què passa.
 
@@ -168,13 +168,243 @@ Les màquines del sud encara tenen un benefici més negatiu que les altres regio
 
 Aquesta visualització ens agrada prou. Volem guardar-la però sense perdre res del que hem fet anteriorment. Si fem clic dret al nom del full "Sheet1" podem duplicar-lo. I de pas, canviar-li el nom.
 
-    3. L'anomenem "Vendes al Sud"
+    3. L'anomenem _Vendes al Sud_
 
 ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag27.gif)
 
 Guardem el llibre: **File** &gt; **Save As**. Per defecte, es guardarà a **Documents** &gt; **My Documents** &gt; **My Tableau Repository**.
 
 * * *
+
+### Step 4: Explora les dades sobre el mapa
+
+Hem vist alguns productes amb pèrdues a la regió Sud. Com que la columna **Region** conté dades geogràfiques, podem visualitzar-les sobre un mapa.
+
+En aquest exemple Tableau ha reconegut les dades de Country, State, City, i Postal Code gràcies al nom de les variables. Sempre va bé que els noms de columnes/variables siguin descriptius!
+
+Els valors geogràfics s'indiquen com a ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore16.png). Si Tableau no reconeix les dades com a geogràfiques, es poden assignar manualment.
+
+### Build a map view
+
+Comencem amb un nou worksheet.
+
+  1. Apreta **New worksheet** a sota el worksheet.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/explore17.png)
+
+  2. Un doble-click a **State** l'afegeix a la carta **Detail** (o bé es pot arrastrar).
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore3.gif)
+
+Fixeu-vos que a columnes i files hi han aparegut els camps latitud i longitud! Latitud i longitud són essencials quan es treballa amb mapes. 
+
+Centrem-nos en el Sud:
+
+  3. Filtrem només la regió sud.
+
+  4. Afegim **Sales** a una carta i mirem que quedi de la següent manera:
+  
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore4.gif)
+
+  5. Canvia una mica el **Color** com hem fet abans.
+
+  6. Seleccionem la paleta que més convingui tenint en compte que volem separar estats que venen molt dels que venen poc.
+
+Això seria un resultat adequat:
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore5.png)
+
+Però un moment. Potser millor mirar beneficis que no pas vendes.
+
+  7. Cliquem **Undo**.
+
+  8. I pintem els estats segons beneficis, no pas vendes..
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore6.png)
+
+Estats que tenien bones vendes en realitat tene pèrdues!
+
+### Step 5: Drill down into the details
+
+Tennessee, North Carolina, i Florida tenen benefici negatiu. Per conèixer el motiu investigarem més en detall.
+
+  1. Doble-click **Sheet 3** i anomenem el llibre **Profit Map**.
+
+  2. Dupliquem el full i l'anomenem **Negative Profit Bar Chart**.
+
+  3. Apretem **Show Me** a dalt a la dreta de la pantalla i seleccionem **horizontal bars**.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore8.png)
+
+I ja tenim altre cop un gràfic de barres.
+
+  4. Seleccionem les barres de **Tennessee**, **North Carolina**, i **Florida** i eliminem la resta, seleccionant **Keep Only**.
+  
+Ara mirarem les ciutats en aquests estats.
+
+  5.A **Rows**, cliquem el símbol de sumar a **State** per mostrar els camps de Ciutat. 
+  
+Ens trobem de nou amb massa informació a la pantalla, així que farem un Top N anàlisi.
+
+### Create a Top N Filter
+
+Explicar els valors més alts (o més baixos, en aquest cas), pot ajudar a explicar la tendència observada.
+
+1. Arrastra **City** al prestatge **Filters**.
+
+2. Al diàleg que apareix, apretem la pestanya Top. Després:
+
+    1. Click **By field**.
+
+    2. Volem seleccionar els **Bottom** **5** (els 5 pitjors).
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore12.png)
+
+    3. Click **OK**.
+
+En aquest moment podem trobar algunes inconsistències en el gràfic. Això és degut a com Tableau aplica els filtres; ho fa en aquest ordre:
+
+    1. Extract Filters
+
+    2. Data Source Filters
+
+    3. Context Filters
+
+    4. Top N Filters
+
+    5. Dimension Filters
+
+    6. Measure Filters
+
+
+Per resoldre-ho, cal clicar amb el botó dret a _Inclusions (Country, State) (Country, State)_ i apretar **Add to Context**.
+
+Ara ens trobem, però que hi ha una ciutat amb benefici positiu. Això és perquè Tableau no pot diferenciar entre Jacksonville,
+NC, i Jacksonville, FL, perquè ciutat és la vista més detallada que apliquem. Si afegim Postal Code, la ciutat amb benefici desapareix de la visualització.
+
+El resum és aquest:
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore13.gif)
+
+* * *
+
+### Identify the troublemakers
+
+
+
+You decide to break up the view by Sub-Category to identify the products
+dragging profit down. You know that the Sub-Category field contains
+information about products sold by location, so you start there.
+
+  1. Drag **Sub-Category** to the **Rows** shelf, and place it to the right of City.
+  2. Drag **Profit** to **Color** on the Marks card to make it easier to see which products have negative profit.
+
+  3. In the Data pane, right-click **Order Date** and select **Show Filter**.
+
+You can now explore negative profits for each year if you want, and quickly
+spot the products that are losing money.
+
+Machines, tables, and binders donât seem to be doing well. So what if you
+stop selling those items in Jacksonville, Concord, Burlington, Knoxville, and
+Memphis?
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore15.png)
+
+* * *
+
+### Verify your findings
+
+Will eliminating binders, machines, and tables improve profits in Florida,
+North Carolina, and Tennessee? To find out, you can filter out the problem
+products to see what happens.
+
+  1. Go back to your map view by clicking the **Profit Map** sheet tab.
+
+  2. On the Data pane, right-click **Sub-Category** and select **Show Filter**. 
+
+A filter card for all of the products you offer appears next to the map view.
+This will come in handy in just a second.
+
+  3. From Measures, drag **Profit** and **Profit Ratio** to **Label** on the Marks card. 
+
+Now you can see the exact profit of each state without having to hover your
+cursor over them.
+
+  4. On the Data pane, right-click **Order Date** and select **Show Filter** to provide some context for the view. 
+
+A filter card for YEAR(Order Date) appears in the view. You can now view
+profit for all years or for a combination of years. This might be useful for
+your presentation.
+
+  5. Clear **Binders**, **Machines**, and **Tables** from the list on the Sub-Category filter card in the view. 
+
+Recall that adding filters to your view lets you include and exclude values to
+highlight certain parts of your data.
+
+As you clear each member, the profit for Tennessee, North Carolina, and
+Florida improve, until finally, each has a positive profit.
+
+_Click the image to replay it_  
+![](Img/Explore16.gif)
+
+Hey, you found something!
+
+Binders, machines, and tables are definitely responsible for the losses in
+Tennessee, North Carolina, and Florida, but not for the rest of the South. Do
+you notice how profit actually decreases for some of the other states as you
+clear items from the filter card? For example, if you toggle **Binders** on
+the Sub-Category filter card, profit drops by four percent in Arkansas. You
+can deduce that Binders are actually profitable in Arkansas.
+
+You want to share this discovery with the team by walking them through the
+same steps you took.
+
+  6. Select **(All)** on the Sub-Category filter card to include all products again.
+
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+More questions you could ask.](javascript:void\(0\);)
+
+You found that binders, machines, and tables were responsible for the negative
+profit in Tennessee, North Carolina, and Florida. What now?
+
+You can continue exploring the data by answering the questions below.
+**Note:** If you use your view to explore these questions, undo any changes
+before continuing the Get Started tutorial.
+
+  * How are machine sales in Tennessee, North Carolina, and Florida? Are you selling a lot? If so, how is profit impacted? 
+
+  * What other factors might be contributing to these results? Are retailers in the south selling products at a discount?
+
+  * What about table and binder sales?
+
+  * What happens to sales in Jacksonville, Miami, Burlington, Knoxville, and Memphis when you remove either machines, tables, or binders?
+
+  * But what about bookcases? Remember, in Step 2, we saw that bookcases were very unprofitable in other regions. Digging into those regions might reveal additional solutions.
+
+### Check your work! Watch "Verify your findings" in action.
+
+_Click the image to replay it_  
+![](Img/explore21.gif)
+
+Now you know that machines, tables, and binders are problematic products for
+your company. In focusing on the South, you see that these products have
+varying impact on profit. This might be a worthwhile conversation to have with
+your boss.
+
+Next, you'll assemble the work you've done so far in a dashboard so that you
+can clearly present your findings.
+
+**More on working with maps and geographic roles** in the Learning Library (in the top menu).
+
+Continue to [Step 6: Build a dashboard to show your insights](get-started-
+tutorial-build.html).
+
+**Top ^**
+
+* * *
+
+![](Resources/Code/onLoad.png)
+
 
 
 
