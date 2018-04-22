@@ -342,20 +342,12 @@ You set out to identify key areas for improvement, but where to start? With
 four years' worth of data, you decide to drill into the overall sales data
 between 2014 and 2017 to see what you find. Start by creating a simple chart.
 
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Terms in this section.](javascript:void\(0\);)
-
 **Term** | **Description**
 --- | ---  
 Aggregation | Row-level data rolled up to a higher category, such as sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.  
 Dimension vs Measure | Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view. Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension).
 Continuous vs. Discrete | Continuous fields can contain an infinite number of values. This can be a range of values such as sales within a specific date range or quantities. Continuous fields are colored green in Tableau. Discrete fields contain a finite number of values such as country, state, or customer name. Discrete fields are colored blue in Tableau.  
   
-**More on Dimensions and Measures** in the Learning Library (in the top menu).
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-Tableau workspace controls and elements.](javascript:void\(0\);)
-
 In this section, you'll drag fields to the Columns and Rows shelves, and
 you'll also work with the Marks card. The image below identifies some of the
 workspace controls and elements that you'll use.
@@ -364,11 +356,10 @@ workspace controls and elements that you'll use.
 
 **Element** | **Description**
 --- | ---  
-Undo | With Tableau, feel free to experiment with your data. You can always get back to where you started with the Undo button. Use this button to reverse the last action you performed in your workbook. You can undo an unlimited number of times, back to the last time you opened the workbook, even after you saved your work.  
+Undo | With Tableau, feel free to experiment with your data. You can always get back to where you started with the Undo button. Use this button to reverse the last action you performed in your workbook. You can undo an unlimited number of times, back to the last time you opened the workbook, even after you saved your work.
 Show/Hide Cards | Did you accidentally hide a card that you now need? No problem! Just about everything on the Tableau workspace can be turned on or off to provide the maximum amount of room for you to create your visualizations. To show or hide cards like Pages, Filters or Legends, click the drop-down arrow on the Show/Hide Cards ![](Img/Drag30.png) button on the toolbar and clear or enable the check mark for the card. You can even collapse the Data and Analytics pane to the lower left corner of the workspace by clicking the Minimize ![](Img/Drag29.png) button at the top-right corner of the pane. Click the button again to restore the pane like it was.  
 Data Pane | Displays the name of the data set that is included in the view and the fields in the data set classified as either dimensions or measures.
-Cards and Shelves | Cards are containers for the different controls that are available in Tableau. Shelves are a type of card control. When you drag fields from the Data pane to the Columns or Rows shelves, the data is added as a column or a row on the axes in your view.
-When you drag fields from the Data pane to the Marks card, you can control visual properties like type, color, size, shape, and more. Only the marks in your view are impacted by this action; axes do not change.
+Cards and Shelves | Cards are containers for the different controls that are available in Tableau. Shelves are a type of card control. When you drag fields from the Data pane to the Columns or Rows shelves, the data is added as a column or a row on the axes in your view. When you drag fields from the Data pane to the Marks card, you can control visual properties like type, color, size, shape, and more. Only the marks in your view are impacted by this action; axes do not change.
   
   1. From Dimensions in the Data pane, drag **Order Date** to the **Columns** shelf.
 
