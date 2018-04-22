@@ -290,23 +290,13 @@ El resum és aquest:
 
 ### Identify the troublemakers
 
+Per acabar d'anar en detall, podem filtrar per Sub-Category per identificar els productes que incrementen les pèrdues.
 
+  1. Arrastrem **Sub-Category** al lloc adequat.
+  2. Ho pintem de color.
+  3. Filtrem per any.
 
-You decide to break up the view by Sub-Category to identify the products
-dragging profit down. You know that the Sub-Category field contains
-information about products sold by location, so you start there.
-
-  1. Drag **Sub-Category** to the **Rows** shelf, and place it to the right of City.
-  2. Drag **Profit** to **Color** on the Marks card to make it easier to see which products have negative profit.
-
-  3. In the Data pane, right-click **Order Date** and select **Show Filter**.
-
-You can now explore negative profits for each year if you want, and quickly
-spot the products that are losing money.
-
-Machines, tables, and binders donât seem to be doing well. So what if you
-stop selling those items in Jacksonville, Concord, Burlington, Knoxville, and
-Memphis?
+Ara podem explorar quins productes fan disminuir els beneficis cada any.
 
 ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore15.png)
 
@@ -314,125 +304,58 @@ Memphis?
 
 ### Verify your findings
 
-Will eliminating binders, machines, and tables improve profits in Florida,
-North Carolina, and Tennessee? To find out, you can filter out the problem
-products to see what happens.
+Millorarien els beneficis si eliminem binders, machines, i tables de Florida, North Carolina, i Tennessee? Podem respndre-ho de la manera següent:
 
-  1. Go back to your map view by clicking the **Profit Map** sheet tab.
+  1. Tornem al mapa que hem creat abans.
 
-  2. On the Data pane, right-click **Sub-Category** and select **Show Filter**. 
+  2. Mostrem el filtre per a **Sub-category**.
+  
+  3. Arrastrem **Profit** i **Profit Ratio** a **Label**. 
 
-A filter card for all of the products you offer appears next to the map view.
-This will come in handy in just a second.
+  4. Right-click **Order Date** i apretem **Show Filter**. 
 
-  3. From Measures, drag **Profit** and **Profit Ratio** to **Label** on the Marks card. 
+  5. Eliminem **Binders**, **Machines**, i **Tables** del filtre Sub-Category i observem com afecten els beneficis de cada estat. 
 
-Now you can see the exact profit of each state without having to hover your
-cursor over them.
+Això és un descobriment!
 
-  4. On the Data pane, right-click **Order Date** and select **Show Filter** to provide some context for the view. 
-
-A filter card for YEAR(Order Date) appears in the view. You can now view
-profit for all years or for a combination of years. This might be useful for
-your presentation.
-
-  5. Clear **Binders**, **Machines**, and **Tables** from the list on the Sub-Category filter card in the view. 
-
-Recall that adding filters to your view lets you include and exclude values to
-highlight certain parts of your data.
-
-As you clear each member, the profit for Tennessee, North Carolina, and
-Florida improve, until finally, each has a positive profit.
-
-_Click the image to replay it_  
-![](Img/Explore16.gif)
-
-Hey, you found something!
-
-Binders, machines, and tables are definitely responsible for the losses in
-Tennessee, North Carolina, and Florida, but not for the rest of the South. Do
-you notice how profit actually decreases for some of the other states as you
-clear items from the filter card? For example, if you toggle **Binders** on
-the Sub-Category filter card, profit drops by four percent in Arkansas. You
-can deduce that Binders are actually profitable in Arkansas.
-
-You want to share this discovery with the team by walking them through the
-same steps you took.
-
-  6. Select **(All)** on the Sub-Category filter card to include all products again.
-
-[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
-More questions you could ask.](javascript:void\(0\);)
-
-You found that binders, machines, and tables were responsible for the negative
-profit in Tennessee, North Carolina, and Florida. What now?
-
-You can continue exploring the data by answering the questions below.
-**Note:** If you use your view to explore these questions, undo any changes
-before continuing the Get Started tutorial.
-
-  * How are machine sales in Tennessee, North Carolina, and Florida? Are you selling a lot? If so, how is profit impacted? 
-
-  * What other factors might be contributing to these results? Are retailers in the south selling products at a discount?
-
-  * What about table and binder sales?
-
-  * What happens to sales in Jacksonville, Miami, Burlington, Knoxville, and Memphis when you remove either machines, tables, or binders?
-
-  * But what about bookcases? Remember, in Step 2, we saw that bookcases were very unprofitable in other regions. Digging into those regions might reveal additional solutions.
-
-### Check your work! Watch "Verify your findings" in action.
-
-_Click the image to replay it_  
-![](Img/explore21.gif)
-
-Now you know that machines, tables, and binders are problematic products for
-your company. In focusing on the South, you see that these products have
-varying impact on profit. This might be a worthwhile conversation to have with
-your boss.
-
-Next, you'll assemble the work you've done so far in a dashboard so that you
-can clearly present your findings.
-
-**More on working with maps and geographic roles** in the Learning Library (in the top menu).
-
-Continue to [Step 6: Build a dashboard to show your insights](get-started-
-tutorial-build.html).
-
-**Top ^**
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/explore21.gif)
 
 * * *
 
-![](Resources/Code/onLoad.png)
+## 2.4. Fer un Dashboard
 
+L'èmfasis el volem en el fet que alguns ítems venuts a determinats llocs no estan funcionant. Un gràfic de barres i el mapa ho demostraran.
 
+  1. Apreta **New dashboard**.
 
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build1.png)
 
+  2. Arrastra **Sales in the South** al dashboard.
 
+  3. Arrastra **Profit Map** al dashboard, sota l'anterior.
 
+Hauria de quedar així:
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build2.png)
 
+Cal millorar el gràfica de barres, que queda molt estret.
 
+* * *
 
+### Arrange your dashboard and add interactivity
 
+Mini-exercici: intenta deixar el Dashboard com el que es mostra:
 
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build3.gif)
 
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build4.gif)
 
+* * *
 
+## 2.5. Crear una història i compartir-la
 
+<br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+* * *
 
 # 3. PowerBI
 
