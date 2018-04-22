@@ -98,7 +98,7 @@ Una bona manera serà afegint dades cateegòriques:
 
 El gràfic es converteix automàticament en un gràfic de barres. En afegir una segona variable categòrica, les dades s'organitzen segons aquesta variable i podem veure les dades separades anualment enlloc de forma contínua en el temps.
 
-http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag24.gif)
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag24.gif)
 
 Proveu el botó: **Show Mark Labels**.
 
