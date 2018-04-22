@@ -27,6 +27,36 @@ Tableau és un softoware de pagament però he aconseguit llicències per aquest 
 
 Si voleu continuar utilitzant Tableau després que s'acabi el curs podeu demanar individualment una llicència d'estudiant (Tableau for Students) vàlida durant un any [aquí](https://community.tableau.com/community/students/).
 
+## 2.2. Primers passos a Tableau
+
+En obrir el programa se'ns obre la pàgina d'inici:
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect1.png)
+
+1. La **icona de Tableau** ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect2.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # 3. PowerBI
