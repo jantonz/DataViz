@@ -335,104 +335,15 @@ _Josep Anton Mir Tutusaus. 2018 ._
 
 -----------------------------------
 
-<div class="foundation-wrap off-canvas-wrapper">
 
-<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
-
-<aside class="off-canvas position-left" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true"></aside>
-
-<div class="off-canvas-content inner-wrap" data-off-canvas-content="">
-
-<div>
-
-<nav class="title-bar tab-bar" data-mc-ignore="true">
-
-<div class="middle title-bar-section outer-row clearfix">
-
-<div class="relative clearfix">[](get-started-tutorial-home.html)
-
-<div class="navigation-wrapper nocontent">
-
-*   <a>placeholder</a>
-
-</div>
-
-<button class="menu-icon" data-toggle="offCanvas"><span></span></button></div>
-
-</div>
-
-<div class="nav-search row outer-row">
-
-<form class="search" action="#">
-
-<div class="search-bar search-bar-container needs-pie"><input class="search-field needs-pie" type="search" placeholder="Search">
-
-<div class="search-filter-wrapper">
-
-<div class="search-filter">
-
-<div class="search-filter-content">
-
-*   All Files
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</form>
-
-</div>
-
-</nav>
-
-</div>
-
-<section class="main-section">
-
-<div class="row outer-row" data-mc-content-body="True">
-
-<div id="form-container">
-
-<form style="width:90%; float:left;" id="first-form"><span class="form-helpful-text form-visible">Was this page helpful?</span>
-
-<div class="form-helpful-radio form-visible"><input type="radio" name="form-helpful-radio" id="helpful-yes" value="1" onclick="submitRating();">Yes <input type="radio" name="form-helpful-radio" id="helpful-no" value="2" onclick="submitRating();">No</div>
-
-</form>
-
-<span id="frame-caption" class="feedback-hidden">Have a comment? Please leave it here.</span><span id="post-submit-msg" class="feedback-hidden">**Thanks for your feedback!**</span></div>
 
 # Step 2: Drag and drop to take a first look
-
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif) This multi-step tutorial introduces Tableau Desktop. You are on **Step 2** of 8.](javascript:void(0);)</span>
-
-<div class="MCDropDownBody dropDownBody">
-
-*   [Step 1: Connect to your data](get-started-tutorial-connect.html)
-*   **Step 2: Drag and drop to take a first look** (you are here)
-*   [Step 3: Focus your results](get-started-tutorial-focus.html)
-*   [Step 4: Explore your data geographically](get-started-tutorial-explore.html)
-*   [Step 5: Drill down into the details](get-started-tutorial-drilldown.html)
-*   [Step 6: Build a dashboard to show your insights](get-started-tutorial-build.html)
-*   [Step 7: Build a story to present](get-started-tutorial-story.html)
-*   [Step 8: Share your findings](get-started-tutorial-share.html)
-
-Want an overview? Head back to the [Introduction](get-started-tutorial-home.html).
-
-</div>
-
-</div>
 
 ## Create a view
 
 You set out to identify key areas for improvement, but where to start? With four years' worth of data, you decide to drill into the overall sales data between 2014 and 2017 to see what you find. Start by creating a simple chart.
 
-<div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead">[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:** Terms in this section.](javascript:void(0);)</span>
-
-<div class="MCDropDownBody dropDownBody">
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png)
 
 <table style="width: 100%;mc-table-style: url('Resources/TableStyles/Shaded-NoBorder.css');" class="TableStyle-Shaded-NoBorder" cellspacing="0"><colgroup><col class="Column-Column1" style="width: 247px;"> <col class="Column-Column1"></colgroup>
 
@@ -440,9 +351,9 @@ You set out to identify key areas for improvement, but where to start? With four
 
 <tr class="Body-Body1">
 
-<td class="BodyE-Column1-Body1">**Term**</td>
+<td class="BodyE-Column1-Body1">Term*/td>
 
-<td class="BodyD-Column1-Body1">**Description**</td>
+<td class="BodyD-Column1-Body1">Description</td>
 
 </tr>
 
