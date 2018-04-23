@@ -5,15 +5,15 @@ Des d'aquí podreu seguir el curs sencer. És un bon lloc per començar a aprend
 Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i està penjada a [GitHub](https://github.com/jantonz/DataViz). Un cop completat el curs podreu proposar canvis a la web i podran ser implementats a la següent edició. En llenguatge GitHub, els vostres _commits_ podran ser _pushed_ a la _branch_ principal.
 
 Comencem fent un 
-### [wordcloud](https://www.wordclouds.com).
+## **[wordcloud](https://www.wordclouds.com)**
 
 # 1. Introducció al Business Intelligence
 
->Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own >business and to connect that understanding with their strategic decision-making.
+>Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own business and to connect that understanding with their strategic decision-making.
 >
->BI systems are built using specialized databases and software, but successful BI goes further than technology alone. When implemented >well, BI supports an analytic culture in an organization. BI gives decision-makers the tools and methods to turn flat information into >deeper understanding and informed action.
+>BI systems are built using specialized databases and software, but successful BI goes further than technology alone. When implemented well, BI supports an analytic culture in an organization. BI gives decision-makers the tools and methods to turn flat information into deeper understanding and informed action.
 >
-> -- <cite>McGill University</cite>
+>   <cite>McGill University</cite>
 
 ![](https://cdn.business2community.com/wp-content/uploads/2014/02/BI-infographic1.jpg)
 
