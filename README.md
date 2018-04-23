@@ -4,6 +4,8 @@ Des d'aquí podreu seguir el curs sencer. És un bon lloc per començar a aprend
 
 Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i està penjada a [GitHub](https://github.com/jantonz/DataViz). Un cop completat el curs podreu proposar canvis a la web i podran ser implementats a la següent edició. En llenguatge GitHub, els vostres _commits_ podran ser _pushed_ a la _branch_ principal.
 
+Comencem fent un [wordcloud](https://www.wordclouds.com)
+
 # 1. Introducció al Business Intelligence
 
 >Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own >business and to connect that understanding with their strategic decision-making.
@@ -322,7 +324,7 @@ Això és un descobriment!
 
 * * *
 
-## 2.4. Fer un Dashboard
+## 2.4. Fer un Dashboard (Step 6)
 
 L'èmfasis el volem en el fet que alguns ítems venuts a determinats llocs no estan funcionant. Un gràfic de barres i el mapa ho demostraran.
 
@@ -351,7 +353,240 @@ Mini-exercici: intenta deixar el Dashboard com el que es mostra:
 
 * * *
 
-## 2.5. Crear una història i compartir-la
+## 2.5. Crear una història i compartir-la (Step 7 i 8)
+
+
+Una història es tracta d'un recorregut més o menys interactiu pels resultats, on se sol recrear les parts més importants del procés d'exploració. 
+
+### Create your first story point
+
+1. Click **New story**. És l'últim botó d'aquest panell, ja estem acabant!
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story1.png)
+
+Les històries s'assemblen molt als dashboards. El workflow és el mateix. Es poden arrastrar worksheets i dashboards per presentar-los a una **Story**.
+
+Per començar, volem presentar una vista global dels resultats a l'audiència.
+
+2. Arrastrem la worksheet **Sales in the South**  al full en blanc. 
+
+3. La _caption_ descriu una mica aquesta primera pàgina de la story.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story2_updated.png)
+
+Un cop presentada la foto global, volem posar l'accent a les vendes de màquines a Carolina del Nord. 
+
+### Highlight machine sales
+
+Ara farem la segona pàgina de la història.
+
+  1. Click a **Duplicate** per duplicar aquesta primera pàgina. 
+
+  2. Al filtre Sub-Category, seleccionem només **Machines**.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story4_updated.png)
+
+  3. Canviem el nom de la caption.
+
+Ara falta posar l'accent en les vendes de màquines en determinats estats (no pas les vendes globals!). Aquí entrarà en joc un mapa.
+
+  4. Apretem **Blank** per crear una nova pàgina, aquest cop blanca.
+
+Recordem que el principal és que les màquines a Carolina del Nord (NC) provoquen pèrdues, ho hem vist mentre fèiem el dashboard. Com dèiem, cal afegir-hi un mapa.
+
+  5. Arrastrem la dashboard que  hem fet abans a la pàgina.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story6.png)
+
+  6. I canviem la caption per un títol descriptiu.
+
+La idea ara és centrar-nos només en Carolina del Nord. Utilitzant el botó de duplicar i el filtre que ja existeix d'any, crearem diverses pàgines en aquesta història. NC el 2014-17, NC el 2014, NC el 2015, NC el 2016 i NC el 2017.
+
+En aquesta diapositiva/pàgina, que es basa en dades del 2017, podríem avançar una petita conclusió, un petit text que ens porti a la diapositiva final, que serà la del gràfic de barres de pèrdues.
+
+  1. Per fer la mini-conclusió, arrastrem **Drag to add text** a la pàgina, l'editem i ja podem continuar amb la diapositiva final.
+
+  2. Creem una nova diapositiva blanca i hi arrastrem el full **Negative Profit Bar Chart**.
+
+  3. Mostrem només el **2017**. 
+
+Ara s'observa que les pèrdues provenien principalment de Burlington, NC.
+
+  4. Click dret a **Burlington** (la bar) i afegim una anotació amb **Annotate** &gt; **Mark**.
+
+  5. Hi escrivim alguna cosa de l'estil "Les vendes de màquines a Burlington van perdre gairebé 4000$".
+
+  6. Donem nom a la pàgina, donem nom a la història i la podem revisar a **Window** &gt; **Presentation mode**.
+
+Si ens molesta que la presentació sigui massa gran per la pantalla (i que apareguin barres de scroll), podem sortir del mode presentació i canviar la mida del dashboard que presentem durant la història.
+
+![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story10.png)
+
+### Share your findings
+
+A Tableau Public, les visualitzacions són públiques. No l'utilitzeu amb dades confidencials! La versió de pagament és privada i es diu Teblau Server.
+
+  1. Selecciona **Server** &gt; **Tableau Public** &gt; **Save to Tableau Public**.
+
+  2. Fem el login.
+
+  3. Ens demanarà **Create Data Extract**, que vol dir que agafarà les dades que hem utilitzat durant la presentació, les transformarà a un format específic de Tableau i les pujarà online. Això també vol dir que la presentació no s'actualitzarà automàticament quan canvïin les dades!
+
+  4. For the second (and last) time, select **Server** &gt; **Tableau Public** &gt; **Save to Tableau Public**.
+
+  5. When your browser opens, review your embedded story. It will look like this:
+
+![](Img/Share8.png)
+
+  6. Click **Edit Details** to update the title of your viz, add a description, and more.
+
+  7. Click **Save**.
+
+Your story is now live on the web.
+
+  8. To share with colleagues, click **Share** at the bottom of your viz.  
+![](Img/Share9.png)
+
+  9. How do you want to share your story?
+    1. Embed on your website: Copy the **Embed Code** and paste it in your web page HTML.
+
+    2. Send a link: Copy the **Link** and send to your colleagues.
+
+    3. Send an email using your default email client: Click the email icon.
+
+    4. Share on Twitter or Facebook: Click the appropriate icon.
+
+After you've completed these steps, click here to jump to the final section of
+the tutorial.
+
+**Top ^**
+
+* * *
+
+## Use Tableau Server
+
+Your story was a hit. You're going to publish it to Tableau Server so that
+your team can view it online.
+
+### Publish to Tableau Server
+
+  1. Select **Server** &gt; **Publish Workbook** or click Share ![](Img/Share_Icon.png) on the toolbar.
+
+  2. Enter the name of the server (or IP address) you want to connect to in the dialog box and click Connect.
+
+![](Img/Share1-gs.png)
+
+  3. In the Name field, enter **Improve Profits in the South**.
+
+  4. If you want, enter a description for reference, for example "Take a look at the story I built in Tableau Desktop!"
+
+  5. Under **Sheets**, click **Edit**, and then clear all sheets except **Improve Profits in the South**.
+
+[![Closed](Skins/Default/Stylesheets/Images/transparent.gif)**Learn more:**
+Share more than just your story.](javascript:void\(0\);)
+
+If you want, you can share every sheet in your workbook with colleagues on
+Tableau Server. However, you may want to think about which sheets you'd like
+to make available to which colleagues.
+
+**Note:** Depending on your administrator, your permissions may vary.
+
+**More on Tableau Server permissions** in the Learning Library (in the top menu).
+
+![](Img/Share2-gs.png)
+
+  6. Click **Publish**.
+
+Tableau Server opens in your internet browser. If prompted, enter your server
+credentials.
+
+The Publishing Complete dialog box lets you know that your story is ready to
+view.
+
+![](Img/Share3-gs.png)
+
+All right! You've successfully published your story using Tableau Server. Now
+it's time to alert the media.
+
+### Send a link to your work
+
+If not the media, it's time to alert at least your teammates so that they can
+interact with your story online.
+
+  1. In Tableau Server, navigate to the Improve Profits in the South story that you published. You will see a screen like this:
+
+![](Img/Share5.png)
+
+_If you had published additional sheets from your workbook, they would be
+listed alongside Improve Profits in the South._  
+
+  2. Click **Improve Profits in the South**.
+
+Your screen will update to look like this:
+
+![](Img/Share6.png)
+
+Awesome! This is your interactive, embedded story.
+
+  3. From the menu, select **Share**.
+
+![](Img/Share4.png)
+
+  4. How do you want to share your story?
+    1. Embed on your website: Copy the **Embed Code** and paste it in your web page HTML.
+
+    2. Send a link: Copy the **Link** and send to your colleagues.
+
+    3. Send an email using your default email client: Click the email icon.
+
+**Top ^**
+
+* * *
+
+## Congrats, you did it!
+
+You used Tableau Desktop to create a view of your product data, map the
+product sales and profitability by region, build a dashboard around your
+findings, tell a story to present, and share your findings on the web so that
+remote team members can take a look.
+
+**You're a data rockstar.**
+
+Well done! You've successfully begun practicing the Tableau "Data Discovery"
+method:
+
+  * Ask a question
+
+  * Gather data
+
+  * Structure the data
+
+  * Explore the data
+
+  * Share insights
+
+That's the basic work flow you'll follow when you work in Tableau, although
+you might find yourself doing a lot more revising in each stage than you did
+here. For example, it might take a few revisions to refine your initial
+question from something general (what's going on with sales?) to something
+specific (which city in the South is responsible for negative profit?).
+
+And your revisions might take you off in unexpected directions. Thatâs
+great. That's what we hope will happen, that you will discover opportunities
+you didn't even know existed when you first looked at your data.
+
+If you're ready to jump in and start working with your data, go for it. But if
+you want more information first, check out the Learning Library!
+
+Continue to the [Learning Library](get-started-tutorial-next.html).
+
+**Top ^**
+
+* * *
+
+![](Resources/Code/onLoad.png)
+
+
 
 <br><br>
 
@@ -599,6 +834,8 @@ Els gràfics es poden arrastrar des de la web mateix.
 Els dashboards es poden compartir, però només amb la versió pro (de pagament).
 
 # 4. Següents passos
+
+### [Tableau VS PowerBI](https://www.betterbuys.com/bi/tableau-vs-power-bi/)
 
 Check this out:
 - [Tutorial de Tableau: dades de GapMinder](https://www.edupristine.com/blog/animation-in-tableau)
