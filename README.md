@@ -688,9 +688,11 @@ Check this out:
 - [Tutorial de Tableau: dades de GapMinder](https://www.edupristine.com/blog/animation-in-tableau)
 - [Tutorial de Tableau: accidents d'aviació](https://www.edupristine.com/blog/visualizing-air-crashes-history-tableau)
 - [Tableau a Coursera](https://www.coursera.org/specializations/data-visualization)
-- [Tutorial de PowerBI](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
-- [Tutorial de PowerBI (Facebook)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-facebook-analytics)
+- [Tutorial de PowerBI (I)](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
 - [Tutorial de PowerBI (II)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed)
+- [Tutorial de PowerBI (Facebook)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-facebook-analytics)
+- [Tutorial de PowerBI (Sentiment Analysis)](https://community.powerbi.com/t5/Community-Blog/Text-Analytics-in-Power-BI-Extraction-of-key-phrases-from/ba-p/88483)
+- [Tutorial de PowerBI (elTemps)](https://tektuts.com/power-bi-tutorial-create-a-weather-dashboard/)
 
 
 <br><br>
