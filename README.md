@@ -694,6 +694,10 @@ Check this out:
 - [Tutorial de PowerBI (Sentiment Analysis)](https://community.powerbi.com/t5/Community-Blog/Text-Analytics-in-Power-BI-Extraction-of-key-phrases-from/ba-p/88483)
 - [Tutorial de PowerBI (elTemps)](https://tektuts.com/power-bi-tutorial-create-a-weather-dashboard/)
 
+### D'on puc treure les dades?
+- [Gapminder](https://www.gapminder.org/data/)
+- [IndexMundi](https://www.indexmundi.com/)
+- [data.world](https://data.world/) (hi ha connector per a PowerBI)
 
 <br><br>
 <br><br>
