@@ -15,7 +15,7 @@ Comencem fent un
 >
 >   <cite>McGill University</cite>
 
-![](https://cdn.business2community.com/wp-content/uploads/2014/02/BI-infographic1.jpg)
+![](https://tugasindividu.weebly.com/uploads/4/5/0/4/45049411/2797634_orig.jpg)
 
 # 2. Tableau
 
@@ -325,7 +325,7 @@ Això és un descobriment!
 
 * * *
 
-## 2.4. Fer un Dashboard (Step 6)
+## 2.5. Fer un Dashboard (Step 6)
 
 L'èmfasis el volem en el fet que alguns ítems venuts a determinats llocs no estan funcionant. Un gràfic de barres i el mapa ho demostraran.
 
@@ -354,7 +354,7 @@ Mini-exercici: intenta deixar el Dashboard com el que es mostra:
 
 * * *
 
-## 2.5. Crear una història i compartir-la (Step 7 i 8)
+## 2.6. Crear una història i compartir-la (Step 7 i 8)
 
 
 Una història es tracta d'un recorregut més o menys interactiu pels resultats, on se sol recrear les parts més importants del procés d'exploració. 
@@ -508,7 +508,7 @@ Quan el Power Query Editor es connecta a dades, revisa cada camp (cada columna) 
 
 ![Canviar Data Type](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)
 
-### 3.3.1. Des d'un OData feed
+### 3.3.2. Des d'un OData feed
 
 #### Pas 1. Connect to an OData feed
 [OData](http://www.odata.org/) vol dir Open Data Protocol, i és un protocol open source que permet la creació i consum de dades a través d'una API [RESTful](https://ca.wikipedia.org/wiki/REST) d'una manera força estàndard.
