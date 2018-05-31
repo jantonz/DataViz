@@ -618,25 +618,29 @@ Una de les gràcies del programa és que permet crear moltes visualitzacions per
 
 El que farem serà un report basat en les dades que hem carregat prèviament. S'utilitza el panell de Fields per seleccionar les columnes que utilitzarem per crear les visualitzacions.
 
-#### Gràfic  1: Units en Stock per Product i Total Sales per Year
+#### Gràfic  1: Quantitat per cada producte
 
-Arrastra **UnitsInStock** des del panell Field (a la dreta de la pantalla) fins a un espai buit del full. Fent això es crea una taula de visualització. Després, arrastra la columna ProductName a la caixa d'Axis (que vol dir _eix_). Després seleccionem **Sort By > UnitsInStock** apretant a l'extrem superior dret de la visualització.
+Arrastra **Quantity** des d'Orders del panell Field (a la dreta de la pantalla) fins a un espai buit del full. Fent això es crea un gràfic de barres molt senzill. Després, arrastra la columna **ProductName** a sobre el mateix gràfic. Després seleccionem **Sort By Quantity** apretant a l'extrem superior dret de la visualització.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-Arrastrem **OrderDate** a una part blanca del full, i arrastrem també **LineTotal** i seleccionem Line Chart. 
+#### Gràfic  2: LineTotal vs temps
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+Arrastrem **LineTotal** a una part blanca del full, fet que crea un altre gràfic de barres. Arrastrem també a sobre **OrderDate**. Podem jugar amb el menú drop down que s'obre apretant la fletxa que hi ha a OrderDate, al camp Axis del panell de  Visualizations: sel·lecciona OrderDate enlloc de Date Hierarchy. També pots transformar el gràfic de barres en un LineChart.
 
-Ara que això està fet, arrastrem **ShipCountry** a una part blanca del full. Com que la columna conté dades geogràfiques, s'ha creat un mapa automàticament. Ara podem arrastrar **LineTotal** al camp de Values; els cercles apareixen al mapa i les seves mides representen el valor de LineTotal per comandes enviades a cada país.
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+#### Gràfic  3: Quantitat per país
+
+Ara que això està fet, arrastrem **ShipCountry** a una part blanca del full. Com que la columna conté dades geogràfiques, s'ha creat un mapa automàticament. A més, el mapa conté un punt per a cada país que té **Orders**. Ara podem arrastrar **LineTotal** al camp de Size (o directament sobre el mapa); els cercles del mapa i les seves mides representen el valor de LineTotal per comandes enviades a cada país.
+
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
 
 Ara podem _interactuar_ amb els gràfics.
 
-Per exemple, si cliquem al cercle de dins de Canadà veurem que la resta de gràfics es filtren automàticament per representar l'stock (ShipCountry) i el total de comandes (LineTotal) només per Canadà.
+Per exemple, si cliquem al cercle de dins de Canadà veurem que la resta de gràfics es filtren automàticament per representar la quantitat (Quantity) i el total de comandes (LineTotal) només per Canadà.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
 
 ## 3.6. Publicació del Report
 
