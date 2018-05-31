@@ -15,7 +15,7 @@ Comencem fent un
 >
 >   <cite>McGill University</cite>
 
-![](https://tugasindividu.weebly.com/uploads/4/5/0/4/45049411/2797634_orig.jpg)
+![](images/2797634_orig.jpg)
 
 # 2. Tableau
 
