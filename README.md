@@ -606,9 +606,9 @@ Això farem: confirmar que hi ha una relació entre les columnes Products i Tota
 
 ![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
 
-Si cliquem sobre la fletxa, ens apareix un diàleg de Edit Relationship.
+Si fem doble clic sobre la fletxa, ens apareix un diàleg de Edit Relationship.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
+![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
 No cal que canviem res, així que apretem Cancel i ja estem llestos per visualitzar dades!
 
