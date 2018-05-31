@@ -34,7 +34,7 @@ Si voleu continuar utilitzant Tableau després que s'acabi el curs podeu demanar
 
 En obrir el programa se'ns obre la pàgina d'inici:
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect1.png)
+![](images/Connect1.png)
 
 1. La **icona de Tableau** ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect2.png)
 2. **Connect** ens permet connectar Tableau a diversos orígens de dades:
@@ -46,7 +46,7 @@ En obrir el programa se'ns obre la pàgina d'inici:
 
 Un full de treball té aquesta pinta:
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag28.png)
+![](images/Drag28.png)
 
 **Element** | **Description**
 --- | ---  
@@ -66,7 +66,7 @@ Dimension vs. Measure | Dimensions són variables/dades categòriques; Measures 
 
 _Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccionar una font de dades. En aquest cas, ens connectarem a un dataset de mostra que es diu Sample - Superstore.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect4.png)
+![](images/Connect4.png)
 
 Aquest dataset d'exemple conté informació sobre productes, vendes, beneficis, etc.
 
@@ -88,7 +88,7 @@ _Sempre que creeu un gràfic que inclou temps (en aquest cas, el camp Order Date
 
 Per canviar el tipus de gràfic, seleccionem el menú drop-down **Marks**. Provem, per exemple, amb **Area**.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag2.png)
+![](images/Drag2.png)
 
 **Nota:** Abans de continuar, tornem a seleccionar **Automatic**.
 
@@ -103,27 +103,27 @@ Una bona manera serà afegint dades cateegòriques:
 
 El gràfic es converteix automàticament en un gràfic de barres. En afegir una segona variable categòrica, les dades s'organitzen segons aquesta variable i podem veure les dades separades anualment enlloc de forma contínua en el temps.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag4.png)
+![](images/Drag4.png)
 
 Proveu el botó: **Show Mark Labels**.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag6.png)
+![](images/Drag6.png)
 
 I també el botó **Swap**:
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag7.png)
+![](images/Drag7.png)
 
 Retornem a la visualització anterior abans de continuar.
 
 Podem encara filar més prim i mirar els productes per sub-categoria per veure quins ítems són els best-sellers: Arrastrem **Sub-Category** a **Columns**. Com que és una altre variable categòrica, i discreta, apareixen barres per cada sub-categoria, agrupades per categoria i any.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag24.gif)
+![](images/Drag24.gif)
 
 La idea és bona, però potser són masses dades alhora per poder entendre-les.
 
 Es pot fer el mateix, però enlloc d'arrastrar **Sub-Category** al prestatge de columnes, es pot arrastrar **Sub-Category** a **Color** a la carta Marks. Ara tenim un gràfic de barres apilades amb cada color representant una subcategoria.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag8.png)
+![](images/Drag8.png)
 
 Podem canviar de lloc les barres canviant de lloc els noms a la llegenda.
 
@@ -141,7 +141,7 @@ Els filtres serveixen per incloure o excloure valors del gràfic. En aquest exem
 
 Els filtres s'afegeixen a la part dreta del full però es poden moure allà on convingui.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag25.gif)
+![](images/Drag25.gif)
 
 ### Afegim color
 
@@ -163,7 +163,7 @@ Jugant, jugant, hem decidit trencar el gràfic per regió:
 
 Tableau crea un gràfic amb diversos eixos segons la regió.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/FocusRegions1.png)
+![](images/FocusRegions1.png)
 
 Torneu a utilitzar filtres per observar els ítems que tenien pèrdues.
 
@@ -173,7 +173,7 @@ Aquesta visualització ens agrada prou. Volem guardar-la però sense perdre res 
 
     3. L'anomenem _Vendes al Sud_
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag27.gif)
+![](images/Drag27.gif)
 
 Guardem el llibre: **File** &gt; **Save As**. Per defecte, es guardarà a **Documents** &gt; **My Documents** &gt; **My Tableau Repository**.
 
@@ -185,7 +185,7 @@ Hem vist alguns productes amb pèrdues a la regió Sud. Com que la columna **Reg
 
 En aquest exemple Tableau ha reconegut les dades de Country, State, City, i Postal Code gràcies al nom de les variables. Sempre va bé que els noms de columnes/variables siguin descriptius!
 
-Els valors geogràfics s'indiquen com a ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore16.png). Si Tableau no reconeix les dades com a geogràfiques, es poden assignar manualment.
+Els valors geogràfics s'indiquen com a ![](images/Explore16.png). Si Tableau no reconeix les dades com a geogràfiques, es poden assignar manualment.
 
 ### Build a map view
 
@@ -193,11 +193,11 @@ Comencem amb un nou worksheet.
 
   1. Apreta **New worksheet** a sota el worksheet.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/explore17.png)
+![](images/explore17.png)
 
   2. Un doble-click a **State** l'afegeix a la carta **Detail** (o bé es pot arrastrar).
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore3.gif)
+![](images/Explore3.gif)
 
 Fixeu-vos que a columnes i files hi han aparegut els camps latitud i longitud! Latitud i longitud són essencials quan es treballa amb mapes. 
 
@@ -207,7 +207,7 @@ Centrem-nos en el Sud:
 
   4. Afegim **Sales** a una carta i mirem que quedi de la següent manera:
   
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore4.gif)
+![](images/Explore4.gif)
 
   5. Canvia una mica el **Color** com hem fet abans.
 
@@ -215,7 +215,7 @@ Centrem-nos en el Sud:
 
 Això seria un resultat adequat:
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore5.png)
+![](images/Explore5.png)
 
 Però un moment. Potser millor mirar beneficis que no pas vendes.
 
@@ -223,7 +223,7 @@ Però un moment. Potser millor mirar beneficis que no pas vendes.
 
   8. I pintem els estats segons beneficis, no pas vendes..
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore6.png)
+![](images/Explore6.png)
 
 Estats que tenien bones vendes en realitat tene pèrdues!
 
@@ -237,7 +237,7 @@ Tennessee, North Carolina, i Florida tenen benefici negatiu. Per conèixer el mo
 
   3. Apretem **Show Me** a dalt a la dreta de la pantalla i seleccionem **horizontal bars**.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore8.png)
+![](images/Explore8.png)
 
 I ja tenim altre cop un gràfic de barres.
 
@@ -261,7 +261,7 @@ Explicar els valors més alts (o més baixos, en aquest cas), pot ajudar a expli
 
     2. Volem seleccionar els **Bottom** **5** (els 5 pitjors).
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore12.png)
+![](images/Explore12.png)
 
     3. Click **OK**.
 
@@ -287,7 +287,7 @@ NC, i Jacksonville, FL, perquè ciutat és la vista més detallada que apliquem.
 
 El resum és aquest:
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore13.gif)
+![](images/Explore13.gif)
 
 * * *
 
@@ -301,7 +301,7 @@ Per acabar d'anar en detall, podem filtrar per Sub-Category per identificar els 
 
 Ara podem explorar quins productes fan disminuir els beneficis cada any.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Explore15.png)
+![](images/Explore15.png)
 
 * * *
 
@@ -321,7 +321,7 @@ Millorarien els beneficis si eliminem binders, machines, i tables de Florida, No
 
 Això és un descobriment!
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/explore21.gif)
+![](images/explore21.gif)
 
 * * *
 
@@ -331,14 +331,14 @@ L'èmfasis el volem en el fet que alguns ítems venuts a determinats llocs no es
 
   1. Apreta **New dashboard**.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build1.png)
+![](images/Build1.png)
 
   2. Arrastra **Sales in the South** al dashboard.
 
   3. Arrastra **Profit Map** al dashboard, sota l'anterior.
 
 Hauria de quedar així:
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build2.png)
+![](images/Build2.png)
 
 Cal millorar el gràfica de barres, que queda molt estret.
 
@@ -348,9 +348,9 @@ Cal millorar el gràfica de barres, que queda molt estret.
 
 Mini-exercici: intenta deixar el Dashboard com el que es mostra:
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build3.gif)
+![](images/Build3.gif)
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Build4.gif)
+![](images/Build4.gif)
 
 * * *
 
@@ -363,7 +363,7 @@ Una història es tracta d'un recorregut més o menys interactiu pels resultats, 
 
 1. Click **New story**. És l'últim botó d'aquest panell, ja estem acabant!
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story1.png)
+![](images/Story1.png)
 
 Les històries s'assemblen molt als dashboards. El workflow és el mateix. Es poden arrastrar worksheets i dashboards per presentar-los a una **Story**.
 
@@ -373,7 +373,7 @@ Per començar, volem presentar una vista global dels resultats a l'audiència.
 
 3. La _caption_ descriu una mica aquesta primera pàgina de la story.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story2_updated.png)
+![](images/Story2_updated.png)
 
 Un cop presentada la foto global, volem posar l'accent a les vendes de màquines a Carolina del Nord. 
 
@@ -385,7 +385,7 @@ Ara farem la segona pàgina de la història.
 
   2. Al filtre Sub-Category, seleccionem només **Machines**.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story4_updated.png)
+![](images/Story4_updated.png)
 
   3. Canviem el nom de la caption.
 
@@ -397,7 +397,7 @@ Recordem que el principal és que les màquines a Carolina del Nord (NC) provoqu
 
   5. Arrastrem la dashboard que  hem fet abans a la pàgina.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story6.png)
+![](images/Story6.png)
 
   6. I canviem la caption per un títol descriptiu.
 
@@ -421,7 +421,7 @@ Ara s'observa que les pèrdues provenien principalment de Burlington, NC.
 
 Si ens molesta que la presentació sigui massa gran per la pantalla (i que apareguin barres de scroll), podem sortir del mode presentació i canviar la mida del dashboard que presentem durant la història.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Story10.png)
+![](images/Story10.png)
 
 ### Share your findings
 
