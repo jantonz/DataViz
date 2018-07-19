@@ -10,9 +10,6 @@ Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i
 
 3. [PowerBI](#3-powerbi)
 
-Comencem fent un 
-## **[wordcloud](https://www.wordclouds.com)**
-
 # 1. Introducció al Business Intelligence
 
 >Business Intelligence (BI) is a way of structuring, analyzing, and leveraging data. Organizations use BI to better understand their own business and to connect that understanding with their strategic decision-making.
