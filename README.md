@@ -17,7 +17,7 @@ Comencem fent un
 
 ![](images/2797634_orig.jpg)
 
-[Amunt](#introduccio-al-business-intelligence)
+[Amunt](#1-introduccio-al-business-intelligence)
 
 # 2. Tableau
 
@@ -31,6 +31,8 @@ Tableau és un softoware de pagament però he aconseguit llicències per aquest 
 - Activa el software amb la llicència proporcionada a classe.
 
 Si voleu continuar utilitzant Tableau després que s'acabi el curs podeu demanar individualment una llicència d'estudiant (Tableau for Students) vàlida durant un any [aquí](https://community.tableau.com/community/students/).
+
+[Amunt](#2-tableau)
 
 ## 2.2. Primers passos a Tableau
 
