@@ -4,6 +4,10 @@ Des d'aquí podreu seguir el curs sencer. És un bon lloc per començar a aprend
 
 Aquesta web utilitza [Markdown](https://daringfireball.net/projects/markdown/) i està penjada a [GitHub](https://github.com/jantonz/DataViz). Un cop completat el curs podreu proposar canvis a la web i podran ser implementats a la següent edició. En llenguatge GitHub, els vostres _commits_ podran ser _pushed_ a la _branch_ principal.
 
+[1. Introducció al Business Intelligence](#1-introducció-al-business-intelligence)
+[2. Tableau](#2-tableau)
+[3. PowerBI](#3-powerbi)
+
 Comencem fent un 
 ## **[wordcloud](https://www.wordclouds.com)**
 
@@ -540,8 +544,6 @@ Per cert, encara estam al Power Query Editor!
 La taula Orders conté una referència a una altra taula que es diu Details, que és la que conté els productes que van ser inclosos a cada comanda (Order). Això pot passar quan ens connectem a una font de dades amb diverses taules (per exemple, una base de dades relacional).
 
 En aquest pas expandim la taula Order_Details que està relacionada amb la taula Orders, per combinar les columnes  ProductID, UnitPrice, i Quantity de la taula Order_Details a la taula Orders. Així es podria representar les dades en aquestes taules:
-
-![DB Relacional](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
 
 La operació "expandir" combina les columnes d'una taula relacionada capa una altra taula. Quan la query és executada, files de la taula relacionada (Order_Details) es combinen amb les de l'altra taula (Orders).
 
