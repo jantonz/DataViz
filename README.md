@@ -17,6 +17,8 @@ Comencem fent un
 
 ![](images/2797634_orig.jpg)
 
+[Amunt](#introduccio-al-business-intelligence)
+
 # 2. Tableau
 
 ## 2.1. Instal·lació de Tableau
