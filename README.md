@@ -709,13 +709,13 @@ Els dashboards es poden compartir, però només amb la versió pro (de pagament)
 ### [Tableau VS PowerBI](https://www.betterbuys.com/bi/tableau-vs-power-bi/)
 
 Check this out:
-- [Tutorial de Tableau: dades de GapMinder](https://www.edupristine.com/blog/animation-in-tableau)
-- [Tutorial de Tableau: accidents d'aviació](https://www.edupristine.com/blog/visualizing-air-crashes-history-tableau)
+- [Exercici de Tableau: dades de GapMinder](https://www.edupristine.com/blog/animation-in-tableau)
+- [Exercici de Tableau: accidents d'aviació](https://www.edupristine.com/blog/visualizing-air-crashes-history-tableau)
 - [Tableau a Coursera](https://www.coursera.org/specializations/data-visualization)
 - [Tutorial de PowerBI](https://docs.microsoft.com/es-es/power-bi/guided-learning/gettingstarted)
-- [Tutorial de PowerBI (Facebook)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-facebook-analytics)
-- [Tutorial de PowerBI (Sentiment Analysis)](https://community.powerbi.com/t5/Community-Blog/Text-Analytics-in-Power-BI-Extraction-of-key-phrases-from/ba-p/88483)
-- [Tutorial de PowerBI (elTemps)](https://tektuts.com/power-bi-tutorial-create-a-weather-dashboard/)
+- [Exercici de PowerBI (Facebook)](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-facebook-analytics)
+- [Exercici de PowerBI (Sentiment Analysis)](https://community.powerbi.com/t5/Community-Blog/Text-Analytics-in-Power-BI-Extraction-of-key-phrases-from/ba-p/88483)
+- [Exercici de PowerBI (elTemps)](https://tektuts.com/power-bi-tutorial-create-a-weather-dashboard/)
 
 ### D'on puc treure les dades?
 - [Gapminder](https://www.gapminder.org/data/)
