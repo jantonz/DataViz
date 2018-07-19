@@ -17,7 +17,7 @@ Comencem fent un
 
 ![](images/2797634_orig.jpg)
 
-[Amunt](#1-introduccio-al-business-intelligence)
+[Amunt](#1-introducció-al-business-intelligence)
 
 # 2. Tableau
 
@@ -52,6 +52,8 @@ Un full de treball té aquesta pinta:
 
 ![](images/Drag28.png)
 
+[Amunt](#2-tableau)
+
 **Element** | **Description**
 --- | ---  
 Undo | És el botó de deshacer/desfés. També funciona el Ctrl + Z.
@@ -73,6 +75,8 @@ _Connectar-se_ a dades és molt fàcil. Només cal apretar Connect i sel·leccio
 ![](images/Connect4.png)
 
 Aquest dataset d'exemple conté informació sobre productes, vendes, beneficis, etc.
+
+[Amunt](#2-tableau)
 
 ## 2.4. Exploraroty Data Analysis (EDA)
 
@@ -358,6 +362,8 @@ Mini-exercici: intenta deixar el Dashboard com el que es mostra:
 
 * * *
 
+[Amunt](#2-tableau)
+
 ## 2.6. Crear una història i compartir-la (Step 7 i 8)
 
 
@@ -443,6 +449,8 @@ A Tableau Public, les visualitzacions són públiques. No l'utilitzeu amb dades 
 
 * * *
 
+[Amunt](#2-tableau)
+
 # 3. PowerBI
 
 ## 3.1. Instal·lació de PowerBI
@@ -480,6 +488,7 @@ Els blocs principals de creació són:
 
 ![Icones](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_4.png)
 
+[Amunt](#3-powerbi)
 
 ## 3.3. Llegir dades
 
@@ -576,6 +585,8 @@ Ara podem canviar el nom de les columnes i canviar-les d'ordre per facilitar l'a
 
 2. Eliminem el prefix _Order_Details._ de les columnes Order_Details.ProductID, Order_Details.UnitPrice i Order_Details.Quantity fent doble-click a cada títol de columna i eliminant el text del nom.
 
+[Amunt](#3-powerbi)
+
 ## 3.4. Data Manipulation
 
 Per fer un report no cal que ajuntem les dues bases de dades que hem llegit. Enlloc d'això, Power BI permet crear _relacions_ entre datasets. Això es pot fer sempre i quan hi hagi alguna columna en comú entre els dos origens de dades.
@@ -615,6 +626,8 @@ Si fem doble clic sobre la fletxa, ens apareix un diàleg de Edit Relationship.
 ![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
 No cal que canviem res, així que apretem Cancel i ja estem llestos per visualitzar dades!
+
+[Amunt](#3-powerbi)
 
 ## 3.5. Creació d'un Report
 
@@ -688,6 +701,8 @@ Els gràfics es poden arrastrar des de la web mateix.
 
 Els dashboards es poden compartir, però només amb la versió pro (de pagament).
 
+[Amunt](#3-powerbi)
+
 # 4. Següents passos
 
 ### [Tableau VS PowerBI](https://www.betterbuys.com/bi/tableau-vs-power-bi/)
@@ -705,6 +720,8 @@ Check this out:
 - [Gapminder](https://www.gapminder.org/data/)
 - [IndexMundi](https://www.indexmundi.com/)
 - [data.world](https://data.world/) (hi ha connector per a PowerBI)
+
+[Amunt](#2-tableau)
 
 <br><br>
 <br><br>
