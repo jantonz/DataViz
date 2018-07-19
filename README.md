@@ -44,7 +44,7 @@ En obrir el programa se'ns obre la pàgina d'inici:
 
 ![](images/Connect1.png)
 
-1. La **icona de Tableau** ![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Connect2.png)
+1. La **icona de Tableau** ![](images/Connect2.png)
 2. **Connect** ens permet connectar Tableau a diversos orígens de dades:
     - Fitxers, com Microsoft Excel, PDF, dades espacials, etc.
     - Dades allotjades a un servidor, com Tableau Server, Microsoft SQL Server, Google Analytics, etc.
@@ -94,7 +94,7 @@ Bona part del workflow a Tableau es basa en arrastrar amb el ratolí.
 
 Tableau genera el gràfic amb les vendes agregades com a suma.
 
-![](http://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/Img/Drag23.gif)
+![](images/Drag23.gif)
 
 _Sempre que creeu un gràfic que inclou temps (en aquest cas, el camp Order Date), Tableau genera un gràfic de línia._
 
@@ -470,27 +470,27 @@ EL link per instal·lar Power BI el podeu trobar aquí.
 
 * Compartir les dashboards amb altres
 
-![](https://docs.microsoft.com/ca-es/power-bi/guided-learning/includes/media/0-1-intro-using-power-bi/c0a1_1.png)
+![](images/c0a1_1.png)
 
 Els blocs principals de creació són:
 
 * Visualitzacions
 
-![Visualitzacions](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_1.png)
+![Visualitzacions](images/c0a0b_1.png)
 
 * Conjunts de dades
 
-![Conjunts de dades](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_2.png)
+![Conjunts de dades](images/c0a0b_2.png)
 
 * Informes
 
-![Informes](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_3.png)
+![Informes](images/c0a0b_3.png)
 
 * Dashboards (informes d'una pàgina)
 
 * Icones
 
-![Icones](https://docs.microsoft.com/es-es/power-bi/guided-learning/includes/media/0-0b-building-blocks-power-bi/c0a0b_4.png)
+![Icones](images/c0a0b_4.png)
 
 [Amunt](#3-powerbi)
 
@@ -498,14 +498,14 @@ Els blocs principals de creació són:
 
 És molt fàcil llegir dades:
 
-![Load data](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/1-2-connect-to-data-sources-in-power-bi-desktop/1-2_2.gif)
+![Load data](images/1-2_2.gif)
 
 ### 3.3.1. Des d'un Excel
 
 Nosaltres descarregarem un .xlsx d'aquest [link](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) i en llegirem les dades.
 
 Un cop establerta la connexió, clicarem a editar per sel·leccionar només les columnes d'interès:
-![Editar](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+![Editar](images/t_excelodata_2.png)
 
 En aquest pas eliminarem totes les columnes excepte ProductID, ProductName, UnitsInStock, i QuantityPerUnit.
 
@@ -515,7 +515,7 @@ El que s'obre quan apretes editar és el que es diu Power Query Editor. També s
 
 2. Apretem a Remove Columns > Remove Other Columns, o right-click al nom d'una columna i click a Remove Other Columns.
 
-![Editar](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
+![Editar](images/anlayzingsalesdata_removeothercolumns.png)
 
 Quan el Power Query Editor es connecta a dades, revisa cada camp (cada columna) per determina el millor tipus de dada (caràcters, números, dates, etc.). Per aquest fitxer d'Excel, els productes en stock serà sempre un camp numèric enter, així que es pot confirmar que UnitsInStock siguin Whole Number.
 
@@ -523,7 +523,7 @@ Quan el Power Query Editor es connecta a dades, revisa cada camp (cada columna) 
 2. Seleccionar el menú Data Type des del menú de la Home.
 3. Si no és ja Whole Number, seleccionar-ho.
 
-![Canviar Data Type](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)
+![Canviar Data Type](images/anlayzingsalesdata_wholenumber.png)
 
 ### 3.3.2. Des d'un OData feed
 
@@ -537,7 +537,7 @@ Per cert, encara estam al Power Query Editor!
 2. L'únic que necessitem és copiar la URL i enganxar-la al diàleg que apareix (Basic).
 3. Seleccionem la taula Orders i apretem a Ok.
 
-![OData](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+![OData](images/anlayzingsalesdata_odatafeed.png)
 
 #### Pas 2. Expand the Order_Details table
 
@@ -550,13 +550,13 @@ La operació "expandir" combina les columnes d'una taula relacionada capa una al
 Veurem 3 noves columnes i diverses files a la taula Orders, una per cada fila de la columna relacionada.
 
 1. A Power Query View, scroll cap a la columna Order_Details.
-2. A la columna Order_Details, selecciona expand ![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png).
+2. A la columna Order_Details, selecciona expand ![](images/expand.png).
 3. Al drop-down d'Expand:
   - Selecciona Select All Columns per desclicar totes les columnes.
   - Selecciona ProductID, UnitPrice, i Quantity.
   - Click OK. 
   
-![Expandir taula](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+![Expandir taula](images/7.png)
 
 #### Pas 3. Remove other columns to only display columns of interest
 
@@ -577,7 +577,7 @@ Apretem Add Column > Custom Column.De nom es dirà LineTotal i la seva fórmula 
 
 El botó dret ajuda!
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
+![](images/9.png)
 
 #### Pas 6. Rename and reorder columns in the query
 
@@ -599,33 +599,33 @@ Això farem: confirmar que hi ha una relació entre les columnes Products i Tota
 
 1. Primer carreguem el model que hem creat al Power Query Editor a PowerBI tot apretant Close & Load.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+![](images/t_excelodata_4.png)
 
 2. Pot tardar una mica en carregar les queries.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+![](images/11.png)
 
 3. Cliquem a Manage Relationships.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
+![](images/t_excelodata_5.png)
 
 
 4. Apretem New…
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
+![](images/t_excelodata_6.png)
 
 5. En intentar de crear una relació, veiem que n'hi una que ja existeix. Sembla que ja s'ha detectat una relació entre les columnes ProductID de les dues taules. Perfecte!
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+![](images/12.png)
 
 
 6. No cal executar res perquè la relació ja ha estat trobada automàticament. Apretem Cancel, i cliquem a la Relationship un cop a Power BI Desktop.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
+![](images/t_excelodata_7.png)
 
 Si fem doble clic sobre la fletxa, ens apareix un diàleg de Edit Relationship.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
+![](images/t_excelodata_8.png)
 
 No cal que canviem res, així que apretem Cancel i ja estem llestos per visualitzar dades!
 
@@ -641,45 +641,45 @@ El que farem serà un report basat en les dades que hem carregat prèviament. S'
 
 Arrastra **Quantity** des d'Orders del panell Field (a la dreta de la pantalla) fins a un espai buit del full. Fent això es crea un gràfic de barres molt senzill. Després, arrastra la columna **ProductName** a sobre el mateix gràfic. Després seleccionem **Sort By Quantity** apretant a l'extrem superior dret de la visualització.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
+![](images/19.png)
 
 #### Gràfic  2: LineTotal vs temps
 
 Arrastrem **LineTotal** a una part blanca del full, fet que crea un altre gràfic de barres. Arrastrem també a sobre **OrderDate**. Podem jugar amb el menú drop down que s'obre apretant la fletxa que hi ha a OrderDate, al camp Axis del panell de  Visualizations: sel·lecciona OrderDate enlloc de Date Hierarchy. També pots transformar el gràfic de barres en un LineChart.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+![](images/20.png)
 
 #### Gràfic  3: Quantitat per país
 
 Ara que això està fet, arrastrem **ShipCountry** a una part blanca del full. Com que la columna conté dades geogràfiques, s'ha creat un mapa automàticament. A més, el mapa conté un punt per a cada país que té **Orders**. Ara podem arrastrar **LineTotal** al camp de Size (o directament sobre el mapa); els cercles del mapa i les seves mides representen el valor de LineTotal per comandes enviades a cada país.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+![](images/21.png)
 
 Ara podem _interactuar_ amb els gràfics.
 
 Per exemple, si cliquem al cercle de dins de Canadà veurem que la resta de gràfics es filtren automàticament per representar la quantitat (Quantity) i el total de comandes (LineTotal) només per Canadà.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+![](images/22.png)
 
 ## 3.6. Publicació del Report
 
 Publicar el report és realment fàcil. Cal clicar el botó de Publish:
 
-![](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/4-1-publish-reports/4-1_1.png)
+![](images/4-1_1.png)
 
 Això sí, caldrà que ens fem un compte a PowerBI online, que és gratuït.
 
 Quan acabem el procés, podem tornar a PowerBI i introduir l'usuari i contrassenya. Tot seguit el report es publica a PowerBI Service. Podem entrar al [compte d'usuari](https://app.powerbi.com/groups/me/contentlist). I ja està online!
 
-![](https://docs.microsoft.com/en-us/power-bi/guided-learning/includes/media/4-1-publish-reports/4-1_4.png)
+![](images/4-1_4.png)
 
 ## 3.7. De Report a Dashboard
 
-Des de PowerBI Service entrem al report que acabem de publicar i _anclem_ les visualitzacions que volem al **Dashboard** apretant el botó ![](https://docs.microsoft.com/en-us/power-bi/media/service-dashboard-create/power-bi-pin-icon.png).
+Des de PowerBI Service entrem al report que acabem de publicar i _anclem_ les visualitzacions que volem al **Dashboard** apretant el botó ![](images/power-bi-pin-icon.png).
 
 Donem un nom al Dashboard i podem visualitzar-lo o bé afegir-hi més gràfics.
 
-![](https://docs.microsoft.com/en-us/power-bi/media/service-dashboard-create/power-bi-pin-tile.png)
+![](images/power-bi-pin-tile.png)
 
 Els gràfics es poden arrastrar des de la web mateix.
 
